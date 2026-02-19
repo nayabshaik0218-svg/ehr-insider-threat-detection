@@ -1,0 +1,1001 @@
+timestamp,user_id,role,patient_id,action,department,device,location,label,hour,risk_score,reasons,risk_level
+2026-02-04 07:19:15,U101,doctor,P067,view,cardiology,desktop,ward,0,7,3,Access outside working hours,Normal
+2026-02-01 08:24:38,U101,doctor,P097,update,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 11:19:27,U202,nurse,P052,view,orthopedics,desktop,ICU,0,11,0,,Normal
+2026-02-01 18:33:22,U201,nurse,P133,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-02 14:07:14,U201,nurse,P149,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-01 12:28:09,U201,nurse,P043,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-04 10:03:16,U202,nurse,P156,view,orthopedics,desktop,ward,0,10,0,,Normal
+2026-02-04 23:02:03,U201,nurse,P064,view,neurology,mobile,home,1,23,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-03 11:48:21,U202,nurse,P089,view,orthopedics,desktop,ICU,0,11,0,,Normal
+2026-02-02 18:04:14,U201,nurse,P082,view,cardiology,desktop,ICU,0,18,0,,Normal
+2026-02-05 16:51:27,U102,doctor,P081,update,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-02 17:28:17,U301,admin,P139,export,admin,desktop,office,0,17,6,Export action (data leakage risk),Suspicious
+2026-02-02 18:53:56,U201,nurse,P068,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-05 11:59:03,U201,nurse,P048,view,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-02 03:45:18,U202,nurse,P161,view,orthopedics,desktop,ward,0,3,3,Access outside working hours,Normal
+2026-02-01 17:29:33,U101,doctor,P022,update,cardiology,desktop,ward,0,17,0,,Normal
+2026-02-04 00:38:09,U201,nurse,P147,view,cardiology,mobile,ICU,0,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 01:50:26,U301,admin,P011,export,admin,desktop,office,0,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-01 13:22:52,U301,admin,P044,export,admin,desktop,office,0,13,6,Export action (data leakage risk),Suspicious
+2026-02-01 11:35:30,U301,admin,P160,export,admin,mobile,office,0,11,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 07:45:01,U201,nurse,P013,view,cardiology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-03 22:26:52,U101,doctor,P067,view,cardiology,desktop,ICU,0,22,3,Access outside working hours,Normal
+2026-02-03 13:22:38,U202,nurse,P038,view,orthopedics,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-01 15:33:40,U202,nurse,P118,view,orthopedics,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-05 19:12:36,U201,nurse,P045,view,cardiology,desktop,ICU,0,19,3,Access outside working hours,Normal
+2026-02-05 15:40:19,U301,admin,P122,view,admin,mobile,office,0,15,1,Access from mobile device,Normal
+2026-02-05 17:28:26,U101,doctor,P128,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-02 12:22:33,U301,admin,P153,view,admin,desktop,office,0,12,0,,Normal
+2026-02-05 17:41:33,U102,doctor,P087,update,neurology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-05 12:51:31,U101,doctor,P062,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-05 22:42:29,U201,nurse,P034,view,cardiology,mobile,ICU,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 22:01:37,U101,doctor,P061,view,neurology,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 12:00:25,U102,doctor,P163,update,neurology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 15:07:17,U202,nurse,P199,view,orthopedics,desktop,ward,0,15,0,,Normal
+2026-02-01 03:51:38,U202,nurse,P188,view,neurology,desktop,home,1,3,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-05 10:49:06,U102,doctor,P090,view,neurology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 09:31:06,U102,doctor,P072,update,neurology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-03 15:00:23,U201,nurse,P190,view,cardiology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-01 12:44:55,U201,nurse,P166,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-04 11:19:18,U102,doctor,P130,update,neurology,desktop,ICU,0,11,0,,Normal
+2026-02-03 16:13:52,U201,nurse,P083,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-01 21:08:11,U102,doctor,P113,update,neurology,mobile,ICU,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 17:27:08,U202,nurse,P041,view,orthopedics,desktop,ICU,0,17,0,,Normal
+2026-02-03 00:12:42,U102,doctor,P186,view,admin,mobile,home,1,0,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-02 09:58:28,U202,nurse,P019,view,orthopedics,desktop,ward,0,9,0,,Normal
+2026-02-05 13:16:37,U202,nurse,P077,view,orthopedics,desktop,ward,0,13,0,,Normal
+2026-02-04 14:17:07,U201,nurse,P050,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-04 14:02:20,U301,admin,P167,export,admin,mobile,office,0,14,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 15:02:06,U202,nurse,P192,view,orthopedics,desktop,ward,0,15,0,,Normal
+2026-02-01 14:54:47,U201,nurse,P192,view,cardiology,desktop,ward,0,14,0,,Normal
+2026-02-04 11:41:23,U102,doctor,P005,view,neurology,desktop,ward,0,11,0,,Normal
+2026-02-05 17:55:10,U101,doctor,P136,view,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-01 14:21:59,U102,doctor,P115,update,neurology,desktop,ICU,0,14,0,,Normal
+2026-02-02 11:21:54,U301,admin,P122,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-02 12:02:08,U201,nurse,P183,view,cardiology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 10:47:44,U102,doctor,P171,update,neurology,desktop,ICU,0,10,0,,Normal
+2026-02-04 18:08:01,U201,nurse,P160,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-04 13:46:17,U301,admin,P185,export,admin,mobile,office,0,13,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 08:14:52,U101,doctor,P015,update,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-01 12:36:27,U102,doctor,P136,update,neurology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-03 16:49:33,U102,doctor,P199,update,neurology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-03 17:32:35,U301,admin,P118,view,admin,desktop,office,0,17,0,,Normal
+2026-02-02 09:13:38,U201,nurse,P092,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-05 22:31:16,U201,nurse,P120,view,admin,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-03 11:53:44,U102,doctor,P149,view,neurology,desktop,ward,0,11,0,,Normal
+2026-02-02 12:52:24,U202,nurse,P198,view,orthopedics,desktop,ward,0,12,0,,Normal
+2026-02-02 13:54:29,U201,nurse,P085,view,cardiology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-01 04:35:17,U102,doctor,P014,view,neurology,desktop,ward,0,4,3,Access outside working hours,Normal
+2026-02-01 13:25:28,U202,nurse,P194,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-04 11:26:03,U101,doctor,P187,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-01 08:32:55,U201,nurse,P163,view,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-04 14:44:35,U202,nurse,P185,view,orthopedics,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-03 12:42:00,U101,doctor,P048,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-01 17:16:19,U202,nurse,P155,view,orthopedics,desktop,ICU,0,17,0,,Normal
+2026-02-04 09:16:45,U201,nurse,P041,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-03 16:16:46,U201,nurse,P046,view,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-03 02:00:42,U102,doctor,P091,update,neurology,mobile,ICU,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 23:41:25,U202,nurse,P010,view,orthopedics,mobile,ward,0,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 18:21:59,U301,admin,P083,export,admin,mobile,office,0,18,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-01 17:03:23,U102,doctor,P130,update,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-03 09:36:59,U101,doctor,P152,update,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-05 14:16:14,U101,doctor,P063,view,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-01 03:07:53,U201,nurse,P100,view,orthopedics,mobile,home,1,3,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 04:53:24,U202,nurse,P016,view,orthopedics,mobile,ward,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 19:57:31,U101,doctor,P172,update,cardiology,desktop,ICU,0,19,3,Access outside working hours,Normal
+2026-02-02 13:34:43,U301,admin,P097,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-05 08:13:07,U202,nurse,P172,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-05 13:27:02,U101,doctor,P097,update,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-04 09:23:43,U102,doctor,P109,update,neurology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-02 14:55:29,U101,doctor,P109,update,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-03 09:20:21,U301,admin,P176,export,admin,mobile,office,0,9,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 13:40:58,U102,doctor,P169,update,neurology,desktop,ward,0,13,0,,Normal
+2026-02-02 15:12:00,U201,nurse,P055,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-04 12:23:09,U201,nurse,P024,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-03 08:44:53,U202,nurse,P046,view,orthopedics,desktop,ICU,0,8,0,,Normal
+2026-02-05 11:36:22,U101,doctor,P131,update,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-05 08:35:50,U201,nurse,P068,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-02 11:07:26,U102,doctor,P099,update,neurology,desktop,ward,0,11,0,,Normal
+2026-02-03 10:41:21,U202,nurse,P103,view,orthopedics,desktop,ICU,0,10,0,,Normal
+2026-02-04 16:10:10,U301,admin,P066,view,admin,desktop,office,0,16,0,,Normal
+2026-02-05 13:29:03,U102,doctor,P144,view,neurology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-03 15:09:45,U201,nurse,P177,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-03 09:32:40,U102,doctor,P119,view,neurology,desktop,ICU,0,9,0,,Normal
+2026-02-01 13:44:43,U101,doctor,P044,view,cardiology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-04 16:07:44,U102,doctor,P197,update,neurology,desktop,ward,0,16,0,,Normal
+2026-02-05 06:08:53,U202,nurse,P100,view,orthopedics,desktop,ICU,0,6,3,Access outside working hours,Normal
+2026-02-05 03:05:21,U301,admin,P134,view,admin,desktop,office,0,3,3,Access outside working hours,Normal
+2026-02-01 12:58:18,U201,nurse,P103,view,cardiology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-02 23:17:04,U202,nurse,P140,view,admin,mobile,office,1,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 09:43:14,U201,nurse,P176,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-01 08:54:18,U101,doctor,P195,update,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 18:00:19,U102,doctor,P128,update,neurology,desktop,ICU,0,18,0,,Normal
+2026-02-03 09:42:14,U102,doctor,P006,update,neurology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-01 08:12:07,U201,nurse,P109,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-03 09:25:43,U201,nurse,P194,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-04 08:50:56,U101,doctor,P046,view,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-01 12:44:39,U301,admin,P132,view,admin,desktop,office,0,12,0,,Normal
+2026-02-04 01:03:47,U201,nurse,P182,view,orthopedics,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 15:04:00,U201,nurse,P041,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-05 08:09:10,U301,admin,P114,view,admin,desktop,office,0,8,0,,Normal
+2026-02-04 00:00:13,U102,doctor,P137,update,neurology,desktop,ward,0,0,3,Access outside working hours,Normal
+2026-02-03 14:42:08,U102,doctor,P127,update,neurology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-01 04:48:35,U102,doctor,P181,update,neurology,mobile,ICU,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 08:56:41,U101,doctor,P183,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-02 13:16:24,U201,nurse,P130,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-03 11:14:52,U301,admin,P119,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-03 06:28:40,U102,doctor,P193,view,neurology,desktop,ward,0,6,3,Access outside working hours,Normal
+2026-02-01 22:23:13,U201,nurse,P106,view,orthopedics,desktop,office,1,22,3,Access outside working hours,Normal
+2026-02-03 14:48:59,U301,admin,P190,view,admin,mobile,office,0,14,1,Access from mobile device,Normal
+2026-02-04 13:11:34,U102,doctor,P006,view,neurology,desktop,ICU,0,13,0,,Normal
+2026-02-02 18:18:51,U301,admin,P004,view,admin,mobile,office,0,18,1,Access from mobile device,Normal
+2026-02-03 15:58:44,U101,doctor,P132,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-02 09:55:16,U102,doctor,P187,view,neurology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-04 16:39:13,U101,doctor,P101,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-01 17:07:56,U201,nurse,P145,view,cardiology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-03 12:47:14,U201,nurse,P193,view,cardiology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-03 17:03:35,U301,admin,P159,view,admin,mobile,office,0,17,1,Access from mobile device,Normal
+2026-02-03 15:50:17,U102,doctor,P038,update,neurology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-05 00:32:36,U101,doctor,P033,view,orthopedics,mobile,home,1,0,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 15:28:09,U201,nurse,P170,view,cardiology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-04 01:48:20,U202,nurse,P098,view,cardiology,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 23:01:08,U102,doctor,P195,view,neurology,mobile,ward,0,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 15:44:53,U102,doctor,P199,view,neurology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-02 22:31:20,U101,doctor,P199,view,orthopedics,desktop,home,1,22,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-03 14:33:30,U301,admin,P194,export,admin,desktop,office,0,14,6,Export action (data leakage risk),Suspicious
+2026-02-01 13:21:52,U202,nurse,P162,view,orthopedics,desktop,ward,0,13,0,,Normal
+2026-02-03 08:09:20,U101,doctor,P163,update,cardiology,desktop,ICU,0,8,0,,Normal
+2026-02-02 12:53:30,U202,nurse,P035,view,orthopedics,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-03 10:37:29,U202,nurse,P032,view,orthopedics,desktop,ICU,0,10,0,,Normal
+2026-02-04 09:36:18,U101,doctor,P028,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-05 11:44:13,U201,nurse,P158,view,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-02 18:25:19,U202,nurse,P124,view,orthopedics,desktop,ward,0,18,0,,Normal
+2026-02-02 10:51:36,U201,nurse,P121,view,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 18:27:51,U201,nurse,P039,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-02 21:04:23,U101,doctor,P055,view,cardiology,mobile,ICU,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 02:16:11,U202,nurse,P107,view,orthopedics,mobile,ward,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 09:32:28,U301,admin,P076,view,admin,desktop,office,0,9,0,,Normal
+2026-02-02 13:50:18,U201,nurse,P123,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-05 14:45:16,U301,admin,P152,view,admin,mobile,office,0,14,1,Access from mobile device,Normal
+2026-02-03 16:10:57,U201,nurse,P041,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-05 10:09:59,U202,nurse,P118,view,orthopedics,desktop,ICU,0,10,0,,Normal
+2026-02-02 10:48:42,U301,admin,P008,view,admin,desktop,office,0,10,0,,Normal
+2026-02-03 13:07:00,U102,doctor,P072,update,neurology,desktop,ICU,0,13,0,,Normal
+2026-02-02 14:05:32,U102,doctor,P052,update,neurology,desktop,ICU,0,14,0,,Normal
+2026-02-02 17:26:23,U201,nurse,P180,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-05 17:24:42,U202,nurse,P158,view,orthopedics,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-03 13:08:44,U102,doctor,P039,view,neurology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-01 08:08:18,U101,doctor,P019,update,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-04 20:27:39,U301,admin,P113,view,admin,mobile,office,0,20,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 10:22:32,U202,nurse,P072,view,orthopedics,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-02 17:32:10,U102,doctor,P114,view,neurology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-04 22:23:24,U202,nurse,P010,view,orthopedics,mobile,ward,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 15:34:36,U301,admin,P115,export,admin,mobile,office,0,15,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 08:58:02,U202,nurse,P111,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-01 00:05:42,U301,admin,P085,export,admin,mobile,office,1,0,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-04 02:48:03,U102,doctor,P029,view,admin,desktop,office,1,2,3,Access outside working hours,Normal
+2026-02-02 00:14:21,U202,nurse,P186,view,admin,mobile,home,1,0,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 16:08:07,U102,doctor,P050,update,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-04 10:39:36,U202,nurse,P132,view,orthopedics,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 23:36:28,U101,doctor,P123,view,cardiology,desktop,ward,0,23,3,Access outside working hours,Normal
+2026-02-03 09:46:57,U101,doctor,P153,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-01 08:17:17,U202,nurse,P048,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 16:18:17,U101,doctor,P050,update,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-01 09:05:23,U101,doctor,P051,update,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-01 17:48:44,U301,admin,P166,export,admin,desktop,office,0,17,6,Export action (data leakage risk),Suspicious
+2026-02-02 18:09:04,U202,nurse,P056,view,orthopedics,desktop,ICU,0,18,0,,Normal
+2026-02-04 13:12:19,U101,doctor,P162,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-04 14:23:16,U202,nurse,P140,view,orthopedics,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-05 10:38:34,U101,doctor,P197,view,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-03 07:10:13,U202,nurse,P072,view,orthopedics,mobile,ICU,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 16:24:06,U101,doctor,P114,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-02 15:04:51,U101,doctor,P199,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-04 10:09:02,U201,nurse,P074,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-04 11:12:07,U201,nurse,P014,view,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-05 16:54:51,U202,nurse,P161,view,orthopedics,desktop,ward,0,16,0,,Normal
+2026-02-03 14:26:36,U301,admin,P015,export,admin,mobile,office,0,14,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 15:01:02,U201,nurse,P185,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-03 13:49:08,U202,nurse,P020,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-01 02:28:29,U101,doctor,P168,view,cardiology,mobile,ward,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 13:53:09,U201,nurse,P177,view,cardiology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-04 01:30:37,U102,doctor,P056,update,neurology,desktop,ICU,0,1,3,Access outside working hours,Normal
+2026-02-03 18:36:25,U201,nurse,P158,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-02 22:09:06,U201,nurse,P122,view,orthopedics,desktop,office,1,22,3,Access outside working hours,Normal
+2026-02-02 17:58:21,U202,nurse,P017,view,orthopedics,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-04 17:34:01,U101,doctor,P003,update,cardiology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-02 16:54:49,U101,doctor,P181,update,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-04 20:48:41,U201,nurse,P119,view,cardiology,mobile,ward,0,20,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 08:59:19,U102,doctor,P110,update,neurology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 22:56:13,U201,nurse,P006,view,neurology,desktop,home,1,22,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 12:55:08,U102,doctor,P183,update,neurology,desktop,ward,0,12,0,,Normal
+2026-02-02 18:43:35,U201,nurse,P123,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-03 10:43:53,U102,doctor,P143,update,neurology,desktop,ward,0,10,0,,Normal
+2026-02-01 22:56:48,U201,nurse,P067,view,orthopedics,mobile,office,1,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 01:26:44,U301,admin,P155,export,admin,desktop,office,1,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-03 16:45:19,U201,nurse,P030,view,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-01 00:54:06,U201,nurse,P024,view,neurology,desktop,home,1,0,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-04 07:41:10,U201,nurse,P098,view,cardiology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-02 17:54:16,U201,nurse,P171,view,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-03 11:56:26,U202,nurse,P041,view,orthopedics,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-03 10:33:10,U102,doctor,P135,update,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-05 09:19:05,U301,admin,P117,view,admin,desktop,office,0,9,0,,Normal
+2026-02-05 02:00:55,U201,nurse,P072,view,cardiology,mobile,ICU,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 15:14:35,U101,doctor,P006,update,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-01 10:41:11,U101,doctor,P156,view,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-03 03:12:26,U102,doctor,P089,view,orthopedics,desktop,home,1,3,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 01:01:35,U202,nurse,P040,view,admin,desktop,office,1,1,3,Access outside working hours,Normal
+2026-02-03 08:30:51,U202,nurse,P170,view,orthopedics,desktop,ward,0,8,0,,Normal
+2026-02-05 13:36:41,U201,nurse,P134,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-05 09:43:09,U201,nurse,P088,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-03 10:47:16,U102,doctor,P149,view,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-02 10:59:43,U101,doctor,P175,update,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-04 02:52:51,U102,doctor,P082,view,admin,mobile,home,1,2,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-03 11:46:11,U201,nurse,P069,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-05 11:50:08,U201,nurse,P120,view,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-03 09:30:49,U301,admin,P101,view,admin,desktop,office,0,9,0,,Normal
+2026-02-04 15:43:48,U201,nurse,P105,view,cardiology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-03 08:13:44,U102,doctor,P073,view,neurology,desktop,ICU,0,8,0,,Normal
+2026-02-03 10:58:28,U102,doctor,P108,update,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 00:58:06,U101,doctor,P004,view,admin,mobile,home,1,0,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-01 22:51:42,U301,admin,P160,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-02 18:24:01,U102,doctor,P017,view,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-04 14:32:49,U102,doctor,P081,update,neurology,desktop,ward,0,14,0,,Normal
+2026-02-05 16:41:56,U301,admin,P138,view,admin,desktop,office,0,16,0,,Normal
+2026-02-05 10:09:38,U101,doctor,P089,update,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-02 10:19:54,U101,doctor,P174,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-01 16:17:44,U102,doctor,P060,view,neurology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-05 14:29:50,U301,admin,P050,export,admin,desktop,office,0,14,6,Export action (data leakage risk),Suspicious
+2026-02-02 21:14:44,U202,nurse,P092,view,orthopedics,mobile,ward,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 14:23:05,U102,doctor,P199,update,neurology,desktop,ICU,0,14,0,,Normal
+2026-02-04 15:26:26,U201,nurse,P197,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-01 11:05:48,U102,doctor,P193,update,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-03 14:24:27,U202,nurse,P093,view,orthopedics,desktop,ICU,0,14,0,,Normal
+2026-02-04 18:54:37,U101,doctor,P143,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-02 08:14:52,U301,admin,P138,view,admin,mobile,office,0,8,1,Access from mobile device,Normal
+2026-02-02 18:40:51,U202,nurse,P092,view,orthopedics,desktop,ward,0,18,0,,Normal
+2026-02-01 12:44:25,U202,nurse,P069,view,orthopedics,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-03 17:27:20,U201,nurse,P027,view,cardiology,desktop,ward,0,17,0,,Normal
+2026-02-05 09:38:36,U301,admin,P191,export,admin,desktop,office,0,9,6,Export action (data leakage risk),Suspicious
+2026-02-01 01:13:03,U101,doctor,P093,view,admin,mobile,home,1,1,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-02 10:20:33,U102,doctor,P068,update,neurology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 13:34:28,U101,doctor,P181,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-03 18:58:09,U102,doctor,P130,update,neurology,desktop,ICU,0,18,0,,Normal
+2026-02-05 10:16:24,U301,admin,P004,export,admin,mobile,office,0,10,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 23:48:22,U101,doctor,P026,view,admin,desktop,office,1,23,3,Access outside working hours,Normal
+2026-02-04 16:01:23,U102,doctor,P151,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-03 11:53:15,U102,doctor,P159,update,neurology,desktop,ward,0,11,0,,Normal
+2026-02-02 17:01:28,U201,nurse,P153,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-04 11:15:26,U101,doctor,P016,update,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-05 00:50:22,U101,doctor,P044,view,orthopedics,desktop,home,1,0,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-04 01:28:09,U201,nurse,P015,view,admin,desktop,home,1,1,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 06:50:31,U102,doctor,P120,view,neurology,mobile,ward,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 18:10:23,U202,nurse,P065,view,orthopedics,desktop,ICU,0,18,0,,Normal
+2026-02-05 17:54:36,U201,nurse,P188,view,cardiology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-04 17:41:29,U301,admin,P145,export,admin,desktop,office,0,17,6,Export action (data leakage risk),Suspicious
+2026-02-03 17:43:06,U101,doctor,P139,view,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-04 14:54:46,U301,admin,P177,view,admin,desktop,office,0,14,0,,Normal
+2026-02-01 17:21:27,U301,admin,P095,export,admin,mobile,office,0,17,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-02 14:18:15,U202,nurse,P155,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-05 16:09:05,U201,nurse,P080,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-03 13:28:43,U301,admin,P043,export,admin,desktop,office,0,13,6,Export action (data leakage risk),Suspicious
+2026-02-01 02:52:29,U202,nurse,P200,view,admin,mobile,home,1,2,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 12:55:24,U202,nurse,P014,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-05 04:01:44,U301,admin,P126,export,admin,desktop,office,0,4,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-04 04:49:27,U101,doctor,P166,update,cardiology,mobile,ward,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 08:18:22,U201,nurse,P150,view,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-05 08:50:41,U301,admin,P100,export,admin,desktop,office,0,8,6,Export action (data leakage risk),Suspicious
+2026-02-05 11:42:37,U301,admin,P057,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-03 03:29:52,U301,admin,P003,export,admin,mobile,office,1,3,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-03 03:30:34,U202,nurse,P171,view,admin,desktop,office,1,3,3,Access outside working hours,Normal
+2026-02-04 03:47:51,U201,nurse,P126,view,admin,desktop,office,1,3,3,Access outside working hours,Normal
+2026-02-01 06:26:27,U101,doctor,P068,view,cardiology,mobile,ICU,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 09:23:07,U301,admin,P060,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-02 08:06:02,U202,nurse,P175,view,orthopedics,desktop,ICU,0,8,0,,Normal
+2026-02-05 00:54:56,U202,nurse,P138,view,orthopedics,mobile,ward,0,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 12:45:16,U202,nurse,P023,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-02 17:40:19,U201,nurse,P145,view,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-02 08:43:17,U202,nurse,P014,view,orthopedics,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 10:59:20,U202,nurse,P003,view,orthopedics,desktop,ward,0,10,0,,Normal
+2026-02-04 16:21:51,U202,nurse,P200,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-03 16:12:03,U202,nurse,P188,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-01 09:55:03,U202,nurse,P014,view,orthopedics,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-04 11:34:40,U102,doctor,P065,view,neurology,desktop,ward,0,11,0,,Normal
+2026-02-02 08:59:17,U102,doctor,P104,update,neurology,desktop,ward,0,8,0,,Normal
+2026-02-05 12:41:19,U201,nurse,P131,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-04 08:11:59,U101,doctor,P116,view,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 12:58:21,U101,doctor,P136,update,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-01 11:07:31,U301,admin,P098,export,admin,mobile,office,0,11,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-02 22:10:12,U101,doctor,P004,view,admin,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-05 14:11:52,U202,nurse,P096,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-01 03:53:57,U201,nurse,P079,view,cardiology,desktop,ward,0,3,3,Access outside working hours,Normal
+2026-02-01 09:19:28,U201,nurse,P172,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-05 21:24:59,U201,nurse,P103,view,cardiology,desktop,ICU,0,21,3,Access outside working hours,Normal
+2026-02-01 10:43:59,U301,admin,P139,view,admin,desktop,office,0,10,0,,Normal
+2026-02-03 15:27:25,U201,nurse,P097,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-03 17:38:18,U301,admin,P077,export,admin,desktop,office,0,17,6,Export action (data leakage risk),Suspicious
+2026-02-01 17:30:14,U301,admin,P161,export,admin,mobile,office,0,17,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 12:54:11,U201,nurse,P056,view,cardiology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-04 02:11:14,U101,doctor,P105,view,neurology,mobile,office,1,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 04:13:53,U201,nurse,P041,view,cardiology,desktop,ward,0,4,3,Access outside working hours,Normal
+2026-02-04 03:16:02,U101,doctor,P081,update,cardiology,desktop,ward,0,3,3,Access outside working hours,Normal
+2026-02-02 02:21:20,U202,nurse,P140,view,admin,desktop,home,1,2,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 11:26:44,U301,admin,P079,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-01 13:14:17,U202,nurse,P044,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 08:33:53,U202,nurse,P138,view,orthopedics,desktop,ward,0,8,0,,Normal
+2026-02-01 03:32:09,U301,admin,P132,export,admin,desktop,home,1,3,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 01:41:41,U201,nurse,P064,view,cardiology,mobile,ward,0,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 11:19:27,U102,doctor,P108,view,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-02 09:38:02,U101,doctor,P194,update,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-02 11:08:18,U102,doctor,P058,update,neurology,desktop,ICU,0,11,0,,Normal
+2026-02-04 06:04:03,U301,admin,P017,view,admin,mobile,office,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 18:44:42,U102,doctor,P093,update,neurology,desktop,ward,0,18,0,,Normal
+2026-02-05 12:06:36,U202,nurse,P120,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-02 14:23:11,U202,nurse,P194,view,orthopedics,desktop,ICU,0,14,0,,Normal
+2026-02-01 17:05:53,U301,admin,P142,export,admin,desktop,office,0,17,6,Export action (data leakage risk),Suspicious
+2026-02-04 13:47:37,U201,nurse,P048,view,cardiology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-02 13:42:46,U102,doctor,P143,update,neurology,desktop,ICU,0,13,0,,Normal
+2026-02-02 08:16:07,U202,nurse,P046,view,orthopedics,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-03 11:39:18,U201,nurse,P114,view,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-05 08:37:37,U301,admin,P025,export,admin,mobile,office,0,8,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 13:57:25,U301,admin,P157,view,admin,desktop,office,0,13,0,,Normal
+2026-02-02 08:42:47,U101,doctor,P029,update,cardiology,desktop,ICU,0,8,0,,Normal
+2026-02-03 16:46:15,U201,nurse,P162,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-05 18:18:31,U301,admin,P123,export,admin,mobile,office,0,18,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 13:01:26,U301,admin,P058,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-04 23:59:29,U102,doctor,P100,view,admin,mobile,home,1,23,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-01 17:26:07,U101,doctor,P024,update,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-04 16:37:13,U101,doctor,P200,update,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-04 01:21:51,U101,doctor,P152,view,neurology,desktop,home,1,1,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 17:38:25,U102,doctor,P142,update,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-02 10:46:41,U201,nurse,P052,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-02 12:12:43,U301,admin,P164,export,admin,mobile,office,0,12,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 17:28:11,U201,nurse,P112,view,cardiology,desktop,ward,0,17,0,,Normal
+2026-02-03 20:40:27,U301,admin,P016,view,admin,desktop,office,0,20,3,Access outside working hours,Normal
+2026-02-02 12:28:15,U201,nurse,P120,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-03 21:22:30,U101,doctor,P007,update,cardiology,desktop,ward,0,21,3,Access outside working hours,Normal
+2026-02-03 16:27:49,U202,nurse,P199,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-05 13:39:49,U202,nurse,P068,view,orthopedics,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-05 15:08:20,U201,nurse,P169,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-05 13:32:44,U201,nurse,P147,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-04 15:18:52,U102,doctor,P086,update,neurology,desktop,ward,0,15,0,,Normal
+2026-02-05 01:09:57,U202,nurse,P012,view,neurology,desktop,office,1,1,3,Access outside working hours,Normal
+2026-02-01 16:09:36,U101,doctor,P177,update,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-03 23:19:35,U301,admin,P001,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-03 09:56:43,U102,doctor,P013,view,neurology,desktop,ICU,0,9,0,,Normal
+2026-02-01 11:18:49,U102,doctor,P006,view,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-01 04:09:16,U201,nurse,P175,view,cardiology,desktop,ward,0,4,3,Access outside working hours,Normal
+2026-02-03 23:22:35,U102,doctor,P105,view,orthopedics,desktop,office,1,23,3,Access outside working hours,Normal
+2026-02-05 16:45:07,U201,nurse,P136,view,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-04 13:37:41,U102,doctor,P125,view,neurology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-04 11:32:37,U202,nurse,P195,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-02 18:30:47,U201,nurse,P125,view,cardiology,desktop,ICU,0,18,0,,Normal
+2026-02-03 18:42:12,U301,admin,P026,export,admin,desktop,office,0,18,6,Export action (data leakage risk),Suspicious
+2026-02-05 18:44:35,U101,doctor,P033,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-05 12:55:34,U101,doctor,P102,update,cardiology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 19:01:40,U102,doctor,P184,view,neurology,mobile,ICU,0,19,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 09:45:49,U202,nurse,P122,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-05 11:55:08,U301,admin,P143,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-02 15:24:04,U301,admin,P153,export,admin,desktop,office,0,15,6,Export action (data leakage risk),Suspicious
+2026-02-04 22:10:36,U102,doctor,P198,view,cardiology,mobile,office,1,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 07:59:25,U102,doctor,P043,view,neurology,mobile,ICU,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 14:24:24,U201,nurse,P081,view,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-04 17:41:40,U301,admin,P018,export,admin,mobile,office,0,17,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-01 21:21:37,U101,doctor,P097,update,cardiology,desktop,ICU,0,21,3,Access outside working hours,Normal
+2026-02-02 18:44:02,U301,admin,P157,view,admin,desktop,office,0,18,0,,Normal
+2026-02-02 08:20:29,U201,nurse,P166,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-03 11:07:59,U101,doctor,P184,update,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-03 15:08:54,U102,doctor,P052,update,neurology,desktop,ICU,0,15,0,,Normal
+2026-02-04 16:05:50,U301,admin,P100,view,admin,desktop,office,0,16,0,,Normal
+2026-02-04 09:03:19,U301,admin,P106,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-02 18:21:05,U201,nurse,P148,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-04 14:16:55,U301,admin,P137,export,admin,desktop,office,0,14,6,Export action (data leakage risk),Suspicious
+2026-02-02 07:05:05,U101,doctor,P076,update,cardiology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-04 22:06:39,U201,nurse,P002,view,neurology,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-03 09:31:10,U202,nurse,P119,view,orthopedics,desktop,ward,0,9,0,,Normal
+2026-02-04 18:33:36,U201,nurse,P142,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-03 02:58:59,U101,doctor,P046,view,admin,mobile,home,1,2,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-05 16:47:24,U301,admin,P154,export,admin,desktop,office,0,16,6,Export action (data leakage risk),Suspicious
+2026-02-02 18:40:41,U201,nurse,P164,view,cardiology,desktop,ICU,0,18,0,,Normal
+2026-02-01 12:49:34,U301,admin,P027,export,admin,desktop,office,0,12,6,Export action (data leakage risk),Suspicious
+2026-02-05 12:09:05,U202,nurse,P173,view,orthopedics,desktop,ward,0,12,0,,Normal
+2026-02-01 02:46:57,U102,doctor,P097,update,neurology,mobile,ward,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 14:17:34,U301,admin,P114,view,admin,desktop,office,0,14,0,,Normal
+2026-02-02 13:40:43,U202,nurse,P019,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-04 14:03:55,U101,doctor,P081,view,cardiology,desktop,ward,0,14,0,,Normal
+2026-02-01 11:18:11,U202,nurse,P083,view,orthopedics,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-01 07:21:40,U201,nurse,P157,view,cardiology,desktop,ward,0,7,3,Access outside working hours,Normal
+2026-02-04 11:53:00,U301,admin,P108,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-02 16:01:27,U202,nurse,P130,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-04 18:27:41,U201,nurse,P165,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-03 22:47:54,U101,doctor,P011,update,cardiology,desktop,ICU,0,22,3,Access outside working hours,Normal
+2026-02-03 11:17:00,U201,nurse,P187,view,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-02 02:27:46,U102,doctor,P105,view,admin,mobile,home,1,2,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-05 15:30:16,U101,doctor,P096,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-04 08:22:41,U202,nurse,P085,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 16:20:12,U301,admin,P191,export,admin,mobile,office,0,16,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 14:00:16,U301,admin,P084,view,admin,mobile,office,0,14,1,Access from mobile device,Normal
+2026-02-01 14:33:27,U101,doctor,P004,view,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-04 15:53:15,U301,admin,P077,export,admin,mobile,office,0,15,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 16:37:01,U301,admin,P122,view,admin,mobile,office,0,16,1,Access from mobile device,Normal
+2026-02-03 14:41:05,U202,nurse,P010,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 17:16:55,U102,doctor,P155,view,neurology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-01 08:13:30,U202,nurse,P179,view,orthopedics,desktop,ward,0,8,0,,Normal
+2026-02-05 14:16:40,U102,doctor,P040,view,neurology,desktop,ward,0,14,0,,Normal
+2026-02-02 12:29:15,U202,nurse,P016,view,orthopedics,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-05 10:14:58,U102,doctor,P072,update,neurology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-05 15:32:57,U301,admin,P053,view,admin,desktop,office,0,15,0,,Normal
+2026-02-03 10:54:51,U301,admin,P148,view,admin,desktop,office,0,10,0,,Normal
+2026-02-03 18:19:58,U102,doctor,P061,update,neurology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-05 18:17:15,U101,doctor,P170,update,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-05 09:12:51,U202,nurse,P123,view,orthopedics,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-04 16:30:03,U101,doctor,P112,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-03 12:12:50,U101,doctor,P125,update,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-04 09:00:35,U301,admin,P142,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-03 09:57:26,U101,doctor,P149,update,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-02 13:29:22,U202,nurse,P111,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-02 09:24:35,U202,nurse,P196,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-02 01:59:45,U102,doctor,P198,update,neurology,desktop,ward,0,1,3,Access outside working hours,Normal
+2026-02-01 12:48:52,U202,nurse,P085,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-02 11:20:08,U102,doctor,P085,update,neurology,desktop,ward,0,11,0,,Normal
+2026-02-04 15:08:54,U202,nurse,P182,view,orthopedics,desktop,ward,0,15,0,,Normal
+2026-02-04 21:24:27,U202,nurse,P069,view,orthopedics,desktop,ward,0,21,3,Access outside working hours,Normal
+2026-02-03 15:46:00,U201,nurse,P199,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-04 08:39:54,U301,admin,P017,export,admin,desktop,office,0,8,6,Export action (data leakage risk),Suspicious
+2026-02-04 13:35:40,U202,nurse,P027,view,orthopedics,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-05 11:17:28,U201,nurse,P017,view,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-02 10:26:52,U301,admin,P055,view,admin,mobile,office,0,10,1,Access from mobile device,Normal
+2026-02-05 12:12:55,U201,nurse,P132,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-01 12:25:05,U102,doctor,P090,update,neurology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-03 16:58:30,U301,admin,P145,view,admin,desktop,office,0,16,0,,Normal
+2026-02-02 22:34:11,U202,nurse,P089,view,orthopedics,mobile,ICU,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 10:26:11,U201,nurse,P029,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-01 15:17:38,U102,doctor,P102,update,neurology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-02 06:48:35,U101,doctor,P054,view,cardiology,mobile,ward,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 16:38:24,U201,nurse,P200,view,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-02 07:15:25,U101,doctor,P140,view,cardiology,mobile,ward,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 15:27:48,U301,admin,P061,view,admin,desktop,office,0,15,0,,Normal
+2026-02-02 11:41:34,U102,doctor,P045,view,neurology,desktop,ICU,0,11,0,,Normal
+2026-02-02 14:50:09,U201,nurse,P083,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-03 13:39:22,U102,doctor,P155,view,neurology,desktop,ward,0,13,0,,Normal
+2026-02-01 16:13:18,U202,nurse,P152,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-04 17:08:22,U202,nurse,P145,view,orthopedics,desktop,ICU,0,17,0,,Normal
+2026-02-05 15:37:35,U202,nurse,P053,view,orthopedics,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-04 08:02:19,U201,nurse,P179,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-04 20:56:34,U201,nurse,P077,view,cardiology,desktop,ward,0,20,3,Access outside working hours,Normal
+2026-02-02 10:38:42,U201,nurse,P134,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 09:43:49,U202,nurse,P147,view,orthopedics,desktop,ward,0,9,0,,Normal
+2026-02-01 04:56:11,U201,nurse,P170,view,cardiology,mobile,ward,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 22:42:07,U101,doctor,P081,update,cardiology,desktop,ward,0,22,3,Access outside working hours,Normal
+2026-02-01 10:06:46,U201,nurse,P155,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-01 16:13:37,U102,doctor,P071,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-05 16:58:31,U102,doctor,P063,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-04 14:21:34,U301,admin,P072,view,admin,mobile,office,0,14,1,Access from mobile device,Normal
+2026-02-05 17:13:28,U102,doctor,P006,update,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-05 08:09:26,U201,nurse,P161,view,cardiology,desktop,ICU,0,8,0,,Normal
+2026-02-03 08:15:28,U202,nurse,P119,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-01 12:40:44,U102,doctor,P137,view,neurology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-05 17:40:26,U202,nurse,P094,view,orthopedics,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-04 10:49:01,U202,nurse,P046,view,orthopedics,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-05 09:23:25,U202,nurse,P009,view,orthopedics,desktop,ward,0,9,0,,Normal
+2026-02-02 02:44:14,U102,doctor,P009,update,neurology,desktop,ward,0,2,3,Access outside working hours,Normal
+2026-02-01 02:28:35,U102,doctor,P023,view,admin,desktop,home,1,2,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-03 18:58:45,U101,doctor,P044,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-02 09:08:39,U301,admin,P083,export,admin,mobile,office,0,9,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-01 14:25:54,U201,nurse,P033,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-01 19:19:23,U101,doctor,P133,view,cardiology,mobile,ward,0,19,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 07:56:59,U102,doctor,P040,view,neurology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-03 11:10:31,U102,doctor,P143,view,neurology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-01 15:01:39,U201,nurse,P068,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-03 10:29:49,U202,nurse,P066,view,orthopedics,desktop,ward,0,10,0,,Normal
+2026-02-01 22:18:05,U202,nurse,P142,view,cardiology,desktop,home,1,22,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-04 12:22:29,U102,doctor,P096,view,neurology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-01 07:00:06,U201,nurse,P046,view,cardiology,mobile,ICU,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 03:30:01,U201,nurse,P017,view,orthopedics,mobile,office,1,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 08:09:22,U101,doctor,P120,update,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-05 18:20:22,U102,doctor,P038,view,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-04 09:55:20,U101,doctor,P023,update,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-04 08:25:35,U102,doctor,P143,update,neurology,desktop,ward,0,8,0,,Normal
+2026-02-05 11:20:57,U102,doctor,P104,update,neurology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-01 22:08:35,U101,doctor,P023,view,neurology,desktop,office,1,22,3,Access outside working hours,Normal
+2026-02-02 19:55:32,U301,admin,P131,view,admin,desktop,office,0,19,3,Access outside working hours,Normal
+2026-02-05 11:19:54,U102,doctor,P066,view,neurology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-04 11:45:37,U301,admin,P015,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-04 11:17:35,U301,admin,P054,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-05 12:59:45,U101,doctor,P169,view,cardiology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-05 18:23:44,U301,admin,P095,view,admin,desktop,office,0,18,0,,Normal
+2026-02-05 09:06:16,U202,nurse,P120,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-03 13:52:19,U102,doctor,P062,view,neurology,desktop,ward,0,13,0,,Normal
+2026-02-05 14:01:04,U201,nurse,P142,view,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-01 08:56:05,U101,doctor,P121,view,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-01 01:20:24,U202,nurse,P149,view,admin,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 09:22:27,U202,nurse,P141,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-04 22:52:15,U301,admin,P026,export,admin,mobile,home,1,22,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-02 20:26:36,U201,nurse,P194,view,cardiology,mobile,ICU,0,20,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 18:33:05,U102,doctor,P039,update,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-04 11:30:02,U202,nurse,P117,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-04 12:57:41,U301,admin,P199,view,admin,mobile,office,0,12,1,Access from mobile device,Normal
+2026-02-01 23:08:32,U102,doctor,P015,view,neurology,mobile,ICU,0,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 01:05:51,U102,doctor,P035,update,neurology,mobile,ward,0,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 17:03:42,U301,admin,P178,view,admin,mobile,office,0,17,1,Access from mobile device,Normal
+2026-02-03 00:51:13,U102,doctor,P186,view,orthopedics,desktop,office,1,0,3,Access outside working hours,Normal
+2026-02-02 10:02:10,U201,nurse,P117,view,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-01 11:43:19,U201,nurse,P007,view,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-05 23:59:35,U102,doctor,P092,update,neurology,desktop,ICU,0,23,3,Access outside working hours,Normal
+2026-02-05 14:25:43,U301,admin,P200,view,admin,mobile,office,0,14,1,Access from mobile device,Normal
+2026-02-04 14:22:34,U102,doctor,P195,update,neurology,desktop,ICU,0,14,0,,Normal
+2026-02-03 14:03:35,U201,nurse,P014,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-04 12:31:13,U202,nurse,P001,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-04 10:35:23,U102,doctor,P108,view,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-03 14:34:24,U202,nurse,P070,view,orthopedics,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-04 03:09:51,U301,admin,P046,view,admin,mobile,office,0,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 10:28:40,U301,admin,P053,view,admin,desktop,office,0,10,0,,Normal
+2026-02-04 08:10:20,U101,doctor,P190,view,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-03 14:35:01,U301,admin,P175,view,admin,desktop,office,0,14,0,,Normal
+2026-02-02 13:42:02,U301,admin,P063,export,admin,desktop,office,0,13,6,Export action (data leakage risk),Suspicious
+2026-02-04 11:11:20,U201,nurse,P125,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-05 16:54:34,U301,admin,P034,view,admin,mobile,office,0,16,1,Access from mobile device,Normal
+2026-02-02 14:51:09,U301,admin,P079,view,admin,desktop,office,0,14,0,,Normal
+2026-02-02 11:01:15,U202,nurse,P112,view,orthopedics,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-05 21:35:46,U301,admin,P121,export,admin,desktop,office,0,21,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-02 23:39:56,U201,nurse,P110,view,cardiology,desktop,ward,0,23,3,Access outside working hours,Normal
+2026-02-05 22:40:18,U101,doctor,P114,update,cardiology,mobile,ward,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 13:06:05,U202,nurse,P179,view,orthopedics,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-04 21:30:11,U102,doctor,P145,view,neurology,mobile,ward,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 02:00:00,U301,admin,P065,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 14:10:36,U101,doctor,P147,update,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 16:21:12,U201,nurse,P044,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-05 09:22:59,U101,doctor,P122,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-05 15:36:08,U102,doctor,P101,view,neurology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-04 10:55:40,U101,doctor,P095,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 16:34:01,U101,doctor,P108,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-04 18:50:34,U201,nurse,P064,view,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-02 13:33:38,U101,doctor,P193,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-05 11:03:52,U201,nurse,P085,view,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-01 10:05:58,U202,nurse,P192,view,orthopedics,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 10:45:47,U101,doctor,P082,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-04 17:06:41,U102,doctor,P146,update,neurology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-02 11:21:05,U101,doctor,P112,view,cardiology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-04 09:53:20,U101,doctor,P085,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-04 13:24:06,U301,admin,P107,export,admin,mobile,office,0,13,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-02 13:41:54,U101,doctor,P182,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-05 14:43:31,U301,admin,P198,export,admin,mobile,office,0,14,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 14:50:56,U202,nurse,P145,view,orthopedics,desktop,ward,0,14,0,,Normal
+2026-02-01 09:55:02,U101,doctor,P023,update,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-05 23:30:12,U301,admin,P084,export,admin,mobile,home,1,23,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-01 09:22:30,U202,nurse,P104,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-03 08:36:28,U202,nurse,P048,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 14:38:25,U201,nurse,P197,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 11:05:39,U102,doctor,P001,update,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-01 16:47:45,U102,doctor,P079,view,neurology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-02 13:58:37,U102,doctor,P080,view,neurology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-03 14:39:37,U202,nurse,P026,view,orthopedics,desktop,ICU,0,14,0,,Normal
+2026-02-05 03:07:15,U202,nurse,P023,view,admin,mobile,home,1,3,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-02 15:24:47,U102,doctor,P075,update,neurology,desktop,ward,0,15,0,,Normal
+2026-02-02 12:59:09,U101,doctor,P089,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-02 11:41:05,U102,doctor,P036,view,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-04 18:09:53,U101,doctor,P102,update,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-05 13:59:53,U101,doctor,P119,update,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-04 14:08:48,U101,doctor,P135,view,cardiology,desktop,ward,0,14,0,,Normal
+2026-02-03 18:10:19,U301,admin,P079,export,admin,mobile,office,0,18,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 12:36:17,U202,nurse,P095,view,orthopedics,desktop,ward,0,12,0,,Normal
+2026-02-05 09:36:32,U201,nurse,P147,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-02 16:42:37,U202,nurse,P111,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-03 16:51:05,U101,doctor,P006,view,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-01 11:32:47,U101,doctor,P124,view,cardiology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-05 18:51:42,U202,nurse,P166,view,orthopedics,desktop,ward,0,18,0,,Normal
+2026-02-04 14:34:43,U101,doctor,P115,update,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-05 17:09:06,U301,admin,P150,view,admin,mobile,office,0,17,1,Access from mobile device,Normal
+2026-02-01 12:26:11,U101,doctor,P040,update,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-02 14:36:53,U102,doctor,P196,view,neurology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-05 11:53:49,U101,doctor,P061,update,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-05 10:19:33,U301,admin,P004,export,admin,desktop,office,0,10,6,Export action (data leakage risk),Suspicious
+2026-02-02 16:25:27,U301,admin,P103,view,admin,desktop,office,0,16,0,,Normal
+2026-02-04 01:16:08,U202,nurse,P175,view,cardiology,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 00:53:33,U202,nurse,P087,view,orthopedics,mobile,ward,0,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 11:59:15,U101,doctor,P057,update,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-04 15:38:34,U301,admin,P184,view,admin,desktop,office,0,15,0,,Normal
+2026-02-02 03:38:56,U102,doctor,P124,view,admin,mobile,office,1,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 19:22:22,U301,admin,P146,view,admin,mobile,office,0,19,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 12:30:39,U102,doctor,P094,update,neurology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-04 02:49:30,U101,doctor,P165,update,cardiology,mobile,ward,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 14:58:41,U301,admin,P062,view,admin,desktop,office,0,14,0,,Normal
+2026-02-04 13:00:27,U301,admin,P126,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-02 14:26:58,U202,nurse,P003,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-04 11:08:51,U101,doctor,P160,view,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-03 12:14:59,U102,doctor,P045,view,neurology,mobile,ward,0,12,1,Access from mobile device,Normal
+2026-02-03 00:49:15,U101,doctor,P007,view,orthopedics,desktop,office,1,0,3,Access outside working hours,Normal
+2026-02-02 22:42:50,U301,admin,P055,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-05 11:08:32,U202,nurse,P120,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-03 10:29:39,U201,nurse,P062,view,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-04 02:09:07,U202,nurse,P164,view,cardiology,desktop,office,1,2,3,Access outside working hours,Normal
+2026-02-03 14:24:44,U202,nurse,P169,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 22:07:45,U102,doctor,P157,view,orthopedics,desktop,office,1,22,3,Access outside working hours,Normal
+2026-02-01 02:07:43,U201,nurse,P162,view,orthopedics,desktop,home,1,2,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-04 15:54:20,U301,admin,P105,view,admin,mobile,office,0,15,1,Access from mobile device,Normal
+2026-02-03 12:19:17,U201,nurse,P077,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-03 12:26:33,U101,doctor,P064,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-04 13:51:29,U202,nurse,P022,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 10:35:02,U202,nurse,P062,view,orthopedics,desktop,ICU,0,10,0,,Normal
+2026-02-02 08:19:10,U202,nurse,P018,view,orthopedics,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-01 18:08:17,U102,doctor,P163,update,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-02 16:37:19,U201,nurse,P087,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-05 11:22:19,U301,admin,P026,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-01 16:48:10,U102,doctor,P188,view,neurology,desktop,ward,0,16,0,,Normal
+2026-02-03 21:51:19,U301,admin,P036,export,admin,mobile,office,0,21,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-05 02:17:37,U101,doctor,P104,view,orthopedics,desktop,office,1,2,3,Access outside working hours,Normal
+2026-02-04 09:57:54,U102,doctor,P013,update,neurology,desktop,ward,0,9,0,,Normal
+2026-02-01 09:34:18,U101,doctor,P176,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-01 16:43:08,U102,doctor,P012,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-02 15:09:38,U201,nurse,P181,view,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-05 22:57:57,U202,nurse,P141,view,cardiology,desktop,office,1,22,3,Access outside working hours,Normal
+2026-02-02 13:23:06,U202,nurse,P105,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-03 13:49:00,U201,nurse,P123,view,cardiology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 23:51:49,U201,nurse,P048,view,neurology,desktop,office,1,23,3,Access outside working hours,Normal
+2026-02-02 21:54:09,U102,doctor,P160,update,neurology,mobile,ward,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 11:18:45,U301,admin,P089,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-05 01:32:06,U201,nurse,P040,view,orthopedics,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 15:16:46,U201,nurse,P055,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-03 01:52:35,U201,nurse,P094,view,cardiology,mobile,ICU,0,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 11:37:09,U102,doctor,P186,update,neurology,desktop,ICU,0,11,0,,Normal
+2026-02-01 11:38:45,U102,doctor,P197,view,neurology,desktop,ward,0,11,0,,Normal
+2026-02-04 01:05:11,U301,admin,P189,view,admin,desktop,office,0,1,3,Access outside working hours,Normal
+2026-02-03 10:52:15,U101,doctor,P171,update,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-03 07:45:28,U102,doctor,P146,update,neurology,mobile,ward,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 10:28:38,U301,admin,P186,view,admin,desktop,office,0,10,0,,Normal
+2026-02-04 13:19:16,U202,nurse,P012,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-04 01:00:32,U102,doctor,P090,view,orthopedics,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 17:53:04,U301,admin,P164,view,admin,mobile,office,0,17,1,Access from mobile device,Normal
+2026-02-05 11:00:45,U301,admin,P094,view,admin,desktop,office,0,11,0,,Normal
+2026-02-01 06:43:32,U202,nurse,P089,view,orthopedics,mobile,ICU,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 14:21:17,U102,doctor,P089,view,neurology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-03 14:47:28,U101,doctor,P115,update,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-02 16:51:40,U101,doctor,P154,view,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-05 16:13:45,U101,doctor,P130,view,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-01 13:33:32,U102,doctor,P024,view,neurology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-04 16:14:45,U202,nurse,P013,view,orthopedics,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-04 15:37:15,U202,nurse,P152,view,orthopedics,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-02 12:20:44,U201,nurse,P032,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-02 12:55:05,U202,nurse,P139,view,orthopedics,desktop,ICU,0,12,0,,Normal
+2026-02-04 12:52:39,U301,admin,P036,view,admin,desktop,office,0,12,0,,Normal
+2026-02-04 14:51:18,U202,nurse,P196,view,orthopedics,desktop,ICU,0,14,0,,Normal
+2026-02-03 01:57:02,U101,doctor,P154,view,cardiology,desktop,ICU,0,1,3,Access outside working hours,Normal
+2026-02-05 16:36:13,U101,doctor,P142,update,cardiology,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-03 13:34:49,U301,admin,P078,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-02 16:25:08,U301,admin,P095,view,admin,desktop,office,0,16,0,,Normal
+2026-02-01 22:13:19,U201,nurse,P028,view,orthopedics,desktop,home,1,22,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-05 15:37:35,U301,admin,P130,view,admin,mobile,office,0,15,1,Access from mobile device,Normal
+2026-02-04 09:15:22,U101,doctor,P066,update,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-04 10:16:38,U301,admin,P051,view,admin,mobile,office,0,10,1,Access from mobile device,Normal
+2026-02-01 13:35:59,U202,nurse,P165,view,orthopedics,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-03 12:29:41,U101,doctor,P024,update,cardiology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-03 22:55:32,U301,admin,P187,view,admin,desktop,office,0,22,3,Access outside working hours,Normal
+2026-02-05 13:15:41,U201,nurse,P020,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-01 00:55:36,U202,nurse,P042,view,orthopedics,mobile,ward,0,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 13:19:04,U101,doctor,P161,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-04 07:09:52,U101,doctor,P167,update,cardiology,mobile,ward,0,7,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 02:09:29,U301,admin,P172,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-04 15:38:45,U102,doctor,P130,view,neurology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-04 15:59:32,U301,admin,P169,view,admin,desktop,office,0,15,0,,Normal
+2026-02-02 19:14:26,U201,nurse,P098,view,cardiology,mobile,ward,0,19,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 15:55:35,U201,nurse,P054,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-03 01:02:32,U202,nurse,P147,view,cardiology,desktop,home,1,1,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-01 11:28:19,U202,nurse,P179,view,orthopedics,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-04 10:11:59,U101,doctor,P031,view,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 09:31:56,U201,nurse,P114,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-04 11:39:40,U301,admin,P191,export,admin,desktop,office,0,11,6,Export action (data leakage risk),Suspicious
+2026-02-05 12:48:57,U301,admin,P109,view,admin,mobile,office,0,12,1,Access from mobile device,Normal
+2026-02-03 11:52:49,U202,nurse,P197,view,orthopedics,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-02 13:36:40,U101,doctor,P177,update,cardiology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-01 11:25:44,U202,nurse,P191,view,orthopedics,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-05 09:30:31,U201,nurse,P065,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-05 11:14:04,U202,nurse,P034,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-02 05:03:01,U201,nurse,P170,view,cardiology,desktop,ward,0,5,3,Access outside working hours,Normal
+2026-02-04 22:03:12,U301,admin,P179,export,admin,desktop,home,1,22,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-05 11:37:02,U202,nurse,P095,view,orthopedics,desktop,ICU,0,11,0,,Normal
+2026-02-05 22:26:43,U301,admin,P177,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-05 08:08:12,U102,doctor,P115,update,neurology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-03 09:16:41,U201,nurse,P004,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-02 22:25:42,U301,admin,P165,export,admin,mobile,office,1,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-05 16:19:53,U202,nurse,P083,view,orthopedics,desktop,ward,0,16,0,,Normal
+2026-02-01 18:05:07,U102,doctor,P185,view,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-01 14:30:19,U101,doctor,P111,update,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-05 11:13:22,U301,admin,P097,view,admin,desktop,office,0,11,0,,Normal
+2026-02-01 11:52:55,U101,doctor,P002,update,cardiology,desktop,ward,0,11,0,,Normal
+2026-02-04 12:30:14,U201,nurse,P191,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-03 14:22:22,U101,doctor,P044,update,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-01 13:58:33,U301,admin,P104,export,admin,desktop,office,0,13,6,Export action (data leakage risk),Suspicious
+2026-02-03 08:45:38,U101,doctor,P102,update,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 10:27:34,U301,admin,P002,export,admin,desktop,office,0,10,6,Export action (data leakage risk),Suspicious
+2026-02-03 11:10:25,U102,doctor,P016,update,neurology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-03 10:58:07,U101,doctor,P036,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-04 11:55:12,U201,nurse,P137,view,cardiology,mobile,ICU,0,11,1,Access from mobile device,Normal
+2026-02-01 06:55:32,U201,nurse,P008,view,cardiology,mobile,ICU,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 22:14:33,U201,nurse,P167,view,cardiology,mobile,ICU,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 13:56:43,U102,doctor,P001,update,neurology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-01 15:42:35,U202,nurse,P090,view,orthopedics,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-02 16:54:03,U101,doctor,P164,update,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-01 10:10:43,U101,doctor,P095,update,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-04 14:54:39,U202,nurse,P114,view,orthopedics,desktop,ICU,0,14,0,,Normal
+2026-02-05 00:50:39,U202,nurse,P021,view,neurology,mobile,office,1,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 18:10:38,U102,doctor,P068,view,neurology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-04 01:16:49,U301,admin,P050,export,admin,desktop,office,1,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-03 09:04:00,U102,doctor,P002,view,neurology,desktop,ICU,0,9,0,,Normal
+2026-02-05 12:25:24,U201,nurse,P147,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-01 03:56:47,U101,doctor,P146,view,neurology,desktop,home,1,3,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-02 15:58:13,U201,nurse,P066,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-04 17:55:43,U101,doctor,P174,view,cardiology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-02 13:28:02,U202,nurse,P037,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-05 07:47:56,U102,doctor,P074,update,neurology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-03 11:31:11,U102,doctor,P061,view,neurology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-05 16:52:48,U102,doctor,P007,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-01 17:05:05,U102,doctor,P194,update,neurology,desktop,ward,0,17,0,,Normal
+2026-02-01 11:29:07,U202,nurse,P020,view,orthopedics,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-03 23:18:54,U301,admin,P159,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 12:12:02,U201,nurse,P145,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-03 18:06:28,U102,doctor,P200,update,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-02 13:36:24,U301,admin,P014,export,admin,mobile,office,0,13,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 08:08:01,U102,doctor,P120,view,neurology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 13:51:20,U301,admin,P119,export,admin,desktop,office,0,13,6,Export action (data leakage risk),Suspicious
+2026-02-01 16:34:00,U101,doctor,P149,view,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-05 00:00:09,U202,nurse,P136,view,neurology,desktop,home,1,0,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-02 08:35:26,U102,doctor,P038,view,neurology,desktop,ward,0,8,0,,Normal
+2026-02-02 16:04:01,U201,nurse,P078,view,cardiology,mobile,ward,0,16,1,Access from mobile device,Normal
+2026-02-04 06:57:30,U201,nurse,P182,view,cardiology,mobile,ward,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 01:29:09,U201,nurse,P114,view,neurology,mobile,home,1,1,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-01 15:50:23,U102,doctor,P143,view,neurology,desktop,ward,0,15,0,,Normal
+2026-02-05 11:18:18,U101,doctor,P006,update,cardiology,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-04 13:22:25,U102,doctor,P100,update,neurology,desktop,ICU,0,13,0,,Normal
+2026-02-04 14:04:38,U101,doctor,P036,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 13:56:29,U201,nurse,P072,view,cardiology,desktop,ICU,0,13,0,,Normal
+2026-02-05 22:40:13,U102,doctor,P106,view,orthopedics,desktop,home,1,22,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-02 13:52:44,U101,doctor,P074,update,cardiology,mobile,ward,0,13,1,Access from mobile device,Normal
+2026-02-04 11:33:00,U201,nurse,P117,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-05 17:12:49,U201,nurse,P034,view,cardiology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-05 09:30:28,U202,nurse,P158,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-02 09:56:00,U201,nurse,P071,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-02 08:13:10,U202,nurse,P048,view,orthopedics,desktop,ward,0,8,0,,Normal
+2026-02-04 12:18:54,U201,nurse,P100,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-01 02:12:31,U202,nurse,P115,view,neurology,desktop,home,1,2,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-03 03:59:24,U101,doctor,P147,view,cardiology,mobile,ward,0,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 10:48:47,U101,doctor,P155,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-04 12:13:03,U301,admin,P011,view,admin,mobile,office,0,12,1,Access from mobile device,Normal
+2026-02-02 09:46:38,U201,nurse,P092,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-03 15:15:54,U101,doctor,P063,update,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-02 13:02:05,U101,doctor,P185,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-02 19:01:58,U202,nurse,P021,view,orthopedics,desktop,ward,0,19,3,Access outside working hours,Normal
+2026-02-04 12:25:26,U301,admin,P096,view,admin,mobile,office,0,12,1,Access from mobile device,Normal
+2026-02-02 02:53:27,U301,admin,P163,export,admin,mobile,office,0,2,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-04 17:08:05,U101,doctor,P059,update,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-02 01:24:59,U101,doctor,P046,update,cardiology,desktop,ICU,0,1,3,Access outside working hours,Normal
+2026-02-04 13:07:59,U301,admin,P110,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-02 09:54:14,U101,doctor,P069,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-02 09:13:55,U101,doctor,P197,update,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-04 08:30:42,U101,doctor,P070,update,cardiology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-02 09:13:34,U202,nurse,P029,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-03 13:43:18,U301,admin,P005,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-01 11:14:08,U101,doctor,P130,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-03 10:15:16,U201,nurse,P007,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-01 22:42:45,U101,doctor,P140,view,admin,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-03 09:49:41,U101,doctor,P040,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-02 22:25:19,U101,doctor,P109,view,cardiology,desktop,ICU,0,22,3,Access outside working hours,Normal
+2026-02-02 01:04:55,U102,doctor,P054,view,admin,desktop,office,1,1,3,Access outside working hours,Normal
+2026-02-04 14:29:45,U102,doctor,P020,update,neurology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-03 11:54:56,U202,nurse,P158,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-01 10:03:30,U301,admin,P062,view,admin,desktop,office,0,10,0,,Normal
+2026-02-01 09:01:55,U202,nurse,P034,view,orthopedics,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-04 08:50:14,U301,admin,P020,view,admin,desktop,office,0,8,0,,Normal
+2026-02-03 10:28:40,U101,doctor,P117,update,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-02 08:12:06,U101,doctor,P184,update,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-03 15:06:45,U202,nurse,P005,view,orthopedics,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-02 09:53:23,U301,admin,P024,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-01 09:22:11,U201,nurse,P197,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-03 03:11:57,U101,doctor,P057,view,neurology,mobile,office,1,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 13:38:03,U102,doctor,P041,update,neurology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 18:33:31,U101,doctor,P113,view,cardiology,desktop,ICU,0,18,0,,Normal
+2026-02-01 16:09:07,U201,nurse,P079,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-02 10:47:04,U301,admin,P059,view,admin,mobile,office,0,10,1,Access from mobile device,Normal
+2026-02-03 08:20:55,U201,nurse,P127,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-04 16:55:32,U102,doctor,P179,view,neurology,desktop,ICU,0,16,0,,Normal
+2026-02-02 15:28:43,U301,admin,P199,export,admin,desktop,office,0,15,6,Export action (data leakage risk),Suspicious
+2026-02-04 17:59:34,U301,admin,P030,view,admin,mobile,office,0,17,1,Access from mobile device,Normal
+2026-02-03 14:24:21,U101,doctor,P046,view,cardiology,desktop,ward,0,14,0,,Normal
+2026-02-05 18:01:04,U301,admin,P071,export,admin,desktop,office,0,18,6,Export action (data leakage risk),Suspicious
+2026-02-04 17:03:27,U102,doctor,P020,view,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-02 02:04:18,U102,doctor,P114,view,neurology,desktop,ICU,0,2,3,Access outside working hours,Normal
+2026-02-03 11:12:03,U202,nurse,P108,view,orthopedics,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-05 13:12:50,U101,doctor,P163,update,cardiology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-01 08:53:31,U201,nurse,P074,view,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-03 16:03:03,U301,admin,P182,export,admin,desktop,office,0,16,6,Export action (data leakage risk),Suspicious
+2026-02-03 09:08:17,U101,doctor,P111,update,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-05 18:37:07,U102,doctor,P012,view,neurology,desktop,ward,0,18,0,,Normal
+2026-02-01 09:58:24,U202,nurse,P135,view,orthopedics,desktop,ward,0,9,0,,Normal
+2026-02-05 14:05:56,U201,nurse,P152,view,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-05 10:26:07,U101,doctor,P197,update,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-02 09:15:35,U102,doctor,P127,update,neurology,desktop,ICU,0,9,0,,Normal
+2026-02-02 15:20:39,U102,doctor,P024,view,neurology,desktop,ward,0,15,0,,Normal
+2026-02-02 23:20:48,U301,admin,P118,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-04 09:34:03,U101,doctor,P165,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-05 13:27:41,U201,nurse,P033,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-02 02:51:19,U301,admin,P049,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-05 18:25:26,U201,nurse,P051,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-01 08:23:49,U202,nurse,P100,view,orthopedics,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-03 02:47:48,U202,nurse,P066,view,neurology,desktop,office,1,2,3,Access outside working hours,Normal
+2026-02-05 18:23:06,U201,nurse,P095,view,cardiology,desktop,ICU,0,18,0,,Normal
+2026-02-02 07:47:59,U201,nurse,P022,view,cardiology,desktop,ward,0,7,3,Access outside working hours,Normal
+2026-02-04 19:47:35,U101,doctor,P032,view,cardiology,desktop,ICU,0,19,3,Access outside working hours,Normal
+2026-02-02 15:29:26,U102,doctor,P072,update,neurology,desktop,ward,0,15,0,,Normal
+2026-02-01 17:55:43,U101,doctor,P047,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-02 12:20:35,U102,doctor,P038,view,neurology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 10:01:48,U102,doctor,P177,update,neurology,desktop,ward,0,10,0,,Normal
+2026-02-04 09:30:16,U101,doctor,P080,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-01 09:10:17,U301,admin,P175,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-04 10:36:24,U301,admin,P081,export,admin,desktop,office,0,10,6,Export action (data leakage risk),Suspicious
+2026-02-03 17:50:53,U201,nurse,P162,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-02 09:12:05,U301,admin,P114,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-05 12:40:17,U301,admin,P145,export,admin,mobile,office,0,12,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-02 02:08:18,U301,admin,P057,export,admin,mobile,home,1,2,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-01 14:20:07,U301,admin,P032,view,admin,desktop,office,0,14,0,,Normal
+2026-02-03 15:22:44,U101,doctor,P047,update,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-04 14:28:02,U202,nurse,P186,view,orthopedics,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-03 15:51:53,U201,nurse,P120,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-02 17:14:57,U102,doctor,P116,view,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-01 05:24:16,U202,nurse,P037,view,orthopedics,desktop,ward,0,5,3,Access outside working hours,Normal
+2026-02-05 11:20:19,U202,nurse,P001,view,orthopedics,mobile,ward,0,11,1,Access from mobile device,Normal
+2026-02-04 00:17:27,U301,admin,P183,export,admin,desktop,home,1,0,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-01 14:43:46,U101,doctor,P054,view,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-05 08:44:02,U301,admin,P176,view,admin,desktop,office,0,8,0,,Normal
+2026-02-04 15:06:15,U301,admin,P173,export,admin,mobile,office,0,15,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 08:44:33,U202,nurse,P007,view,orthopedics,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-04 13:12:40,U301,admin,P068,export,admin,mobile,office,0,13,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-03 15:00:46,U101,doctor,P042,update,cardiology,desktop,ward,0,15,0,,Normal
+2026-02-01 13:37:07,U301,admin,P025,view,admin,desktop,office,0,13,0,,Normal
+2026-02-04 00:52:04,U102,doctor,P172,view,orthopedics,mobile,office,1,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 09:22:35,U101,doctor,P152,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-03 10:43:49,U202,nurse,P135,view,orthopedics,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 13:36:38,U101,doctor,P039,view,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-02 13:07:29,U301,admin,P176,view,admin,desktop,office,0,13,0,,Normal
+2026-02-04 13:58:53,U102,doctor,P168,update,neurology,desktop,ward,0,13,0,,Normal
+2026-02-01 15:21:35,U201,nurse,P180,view,cardiology,mobile,ICU,0,15,1,Access from mobile device,Normal
+2026-02-03 05:56:21,U102,doctor,P134,update,neurology,mobile,ICU,0,5,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 14:31:25,U201,nurse,P023,view,cardiology,mobile,ICU,0,14,1,Access from mobile device,Normal
+2026-02-02 10:15:09,U201,nurse,P192,view,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-02 02:49:45,U102,doctor,P118,view,neurology,mobile,ICU,0,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 12:05:58,U301,admin,P171,export,admin,desktop,office,0,12,6,Export action (data leakage risk),Suspicious
+2026-02-04 09:07:05,U201,nurse,P026,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-03 06:12:54,U202,nurse,P113,view,orthopedics,mobile,ICU,0,6,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 18:08:00,U202,nurse,P084,view,orthopedics,desktop,ICU,0,18,0,,Normal
+2026-02-04 14:35:50,U201,nurse,P089,view,cardiology,desktop,ICU,0,14,0,,Normal
+2026-02-01 10:18:02,U101,doctor,P183,update,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-03 02:01:18,U201,nurse,P009,view,admin,mobile,home,1,2,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-01 22:46:53,U202,nurse,P025,view,cardiology,mobile,home,1,22,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-05 10:40:31,U201,nurse,P010,view,cardiology,desktop,ward,0,10,0,,Normal
+2026-02-04 13:38:15,U202,nurse,P153,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 16:51:17,U201,nurse,P029,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-01 10:19:53,U102,doctor,P041,update,neurology,desktop,ward,0,10,0,,Normal
+2026-02-04 11:59:27,U301,admin,P015,view,admin,desktop,office,0,11,0,,Normal
+2026-02-01 00:05:08,U202,nurse,P003,view,cardiology,mobile,office,1,0,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 17:33:20,U101,doctor,P118,update,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-03 09:16:53,U301,admin,P123,view,admin,mobile,office,0,9,1,Access from mobile device,Normal
+2026-02-03 18:58:50,U202,nurse,P097,view,orthopedics,desktop,ward,0,18,0,,Normal
+2026-02-01 07:57:18,U201,nurse,P051,view,cardiology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-02 13:33:11,U101,doctor,P001,view,cardiology,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-05 08:05:03,U202,nurse,P180,view,orthopedics,desktop,ICU,0,8,0,,Normal
+2026-02-04 06:39:18,U202,nurse,P081,view,orthopedics,desktop,ward,0,6,3,Access outside working hours,Normal
+2026-02-02 09:17:09,U101,doctor,P140,view,cardiology,desktop,ward,0,9,0,,Normal
+2026-02-01 09:22:59,U201,nurse,P070,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-02 00:56:41,U301,admin,P181,export,admin,desktop,home,1,0,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-01 16:29:35,U301,admin,P064,view,admin,desktop,office,0,16,0,,Normal
+2026-02-04 16:29:03,U101,doctor,P194,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-05 18:36:07,U301,admin,P006,export,admin,mobile,office,0,18,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-01 23:28:21,U101,doctor,P181,view,neurology,mobile,home,1,23,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-05 17:45:59,U202,nurse,P012,view,orthopedics,desktop,ICU,0,17,0,,Normal
+2026-02-05 16:41:10,U201,nurse,P167,view,cardiology,desktop,ICU,0,16,0,,Normal
+2026-02-01 10:25:08,U202,nurse,P068,view,orthopedics,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-01 15:06:27,U201,nurse,P193,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-05 17:27:42,U102,doctor,P149,update,neurology,desktop,ICU,0,17,0,,Normal
+2026-02-04 17:09:01,U101,doctor,P188,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-05 04:05:48,U101,doctor,P102,view,cardiology,mobile,ICU,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 18:50:49,U301,admin,P147,view,admin,desktop,office,0,18,0,,Normal
+2026-02-04 11:29:42,U301,admin,P076,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-03 12:11:17,U102,doctor,P076,view,neurology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-05 12:12:01,U301,admin,P174,view,admin,mobile,office,0,12,1,Access from mobile device,Normal
+2026-02-05 15:14:20,U301,admin,P046,export,admin,desktop,office,0,15,6,Export action (data leakage risk),Suspicious
+2026-02-01 11:23:24,U102,doctor,P088,update,neurology,desktop,ward,0,11,0,,Normal
+2026-02-04 16:39:44,U301,admin,P186,view,admin,desktop,office,0,16,0,,Normal
+2026-02-03 08:09:22,U201,nurse,P047,view,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-04 18:14:04,U101,doctor,P136,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-01 16:56:55,U102,doctor,P064,update,neurology,desktop,ward,0,16,0,,Normal
+2026-02-04 15:40:11,U101,doctor,P165,update,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-01 18:10:55,U101,doctor,P038,view,cardiology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-04 03:43:31,U202,nurse,P095,view,orthopedics,mobile,ICU,0,3,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 17:25:54,U101,doctor,P088,view,cardiology,desktop,ICU,0,17,0,,Normal
+2026-02-03 14:50:16,U101,doctor,P187,view,cardiology,mobile,ward,0,14,1,Access from mobile device,Normal
+2026-02-01 01:59:00,U101,doctor,P012,view,neurology,desktop,office,1,1,3,Access outside working hours,Normal
+2026-02-04 04:55:37,U202,nurse,P001,view,orthopedics,mobile,ward,0,4,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 12:56:34,U201,nurse,P008,view,cardiology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-05 20:36:40,U102,doctor,P150,view,neurology,mobile,ward,0,20,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 16:34:39,U202,nurse,P132,view,orthopedics,mobile,ICU,0,16,1,Access from mobile device,Normal
+2026-02-04 15:46:34,U101,doctor,P116,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-04 12:40:10,U202,nurse,P033,view,orthopedics,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 16:26:47,U301,admin,P087,view,admin,mobile,office,0,16,1,Access from mobile device,Normal
+2026-02-04 15:51:26,U301,admin,P064,view,admin,desktop,office,0,15,0,,Normal
+2026-02-05 17:40:55,U201,nurse,P013,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-05 08:33:32,U102,doctor,P024,view,neurology,desktop,ICU,0,8,0,,Normal
+2026-02-01 01:59:10,U101,doctor,P121,view,admin,mobile,home,1,1,7,"Access outside working hours, Access from home location, Access from mobile device",Suspicious
+2026-02-04 07:37:25,U101,doctor,P157,update,cardiology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-01 01:37:02,U102,doctor,P117,view,orthopedics,mobile,office,1,1,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 17:08:28,U201,nurse,P167,view,cardiology,mobile,ward,0,17,1,Access from mobile device,Normal
+2026-02-03 17:27:40,U202,nurse,P106,view,orthopedics,desktop,ICU,0,17,0,,Normal
+2026-02-02 12:34:20,U201,nurse,P160,view,cardiology,desktop,ICU,0,12,0,,Normal
+2026-02-03 18:35:52,U102,doctor,P144,view,neurology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-03 10:55:59,U101,doctor,P179,view,cardiology,desktop,ICU,0,10,0,,Normal
+2026-02-02 18:58:15,U201,nurse,P149,view,cardiology,mobile,ICU,0,18,1,Access from mobile device,Normal
+2026-02-03 13:51:51,U202,nurse,P027,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-05 01:44:18,U201,nurse,P171,view,orthopedics,desktop,home,1,1,6,"Access outside working hours, Access from home location",Suspicious
+2026-02-03 23:36:42,U202,nurse,P174,view,orthopedics,mobile,ICU,0,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-04 22:40:03,U301,admin,P077,view,admin,mobile,office,0,22,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-05 09:46:29,U201,nurse,P175,view,cardiology,desktop,ICU,0,9,0,,Normal
+2026-02-03 13:24:36,U301,admin,P100,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-04 18:26:25,U102,doctor,P173,view,neurology,desktop,ICU,0,18,0,,Normal
+2026-02-05 02:24:15,U101,doctor,P062,view,orthopedics,mobile,office,1,2,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-03 22:17:18,U101,doctor,P069,update,cardiology,desktop,ward,0,22,3,Access outside working hours,Normal
+2026-02-03 18:24:09,U202,nurse,P165,view,orthopedics,desktop,ward,0,18,0,,Normal
+2026-02-04 08:41:41,U201,nurse,P064,view,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-05 10:04:22,U101,doctor,P021,view,cardiology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-05 10:23:23,U202,nurse,P039,view,orthopedics,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-03 09:39:55,U101,doctor,P100,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-01 21:01:40,U201,nurse,P028,view,cardiology,desktop,ICU,0,21,3,Access outside working hours,Normal
+2026-02-04 10:40:42,U102,doctor,P100,update,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-05 18:17:41,U101,doctor,P071,update,cardiology,mobile,ward,0,18,1,Access from mobile device,Normal
+2026-02-01 18:47:11,U301,admin,P182,view,admin,desktop,office,0,18,0,,Normal
+2026-02-01 10:47:38,U101,doctor,P111,view,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-04 14:59:12,U202,nurse,P082,view,orthopedics,desktop,ward,0,14,0,,Normal
+2026-02-04 14:45:30,U301,admin,P114,export,admin,mobile,office,0,14,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-05 03:21:19,U101,doctor,P123,view,admin,desktop,office,1,3,3,Access outside working hours,Normal
+2026-02-04 08:27:13,U102,doctor,P064,update,neurology,desktop,ICU,0,8,0,,Normal
+2026-02-02 23:59:38,U201,nurse,P186,view,cardiology,mobile,ICU,0,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-02 19:26:34,U301,admin,P100,export,admin,mobile,office,0,19,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-04 18:11:09,U201,nurse,P010,view,cardiology,desktop,ward,0,18,0,,Normal
+2026-02-01 14:34:44,U301,admin,P063,export,admin,desktop,office,0,14,6,Export action (data leakage risk),Suspicious
+2026-02-02 08:03:18,U102,doctor,P014,update,neurology,mobile,ICU,0,8,1,Access from mobile device,Normal
+2026-02-04 17:11:50,U102,doctor,P069,view,neurology,desktop,ward,0,17,0,,Normal
+2026-02-02 13:30:06,U202,nurse,P045,view,orthopedics,mobile,ICU,0,13,1,Access from mobile device,Normal
+2026-02-03 14:23:07,U102,doctor,P163,view,neurology,desktop,ward,0,14,0,,Normal
+2026-02-05 12:27:05,U201,nurse,P196,view,cardiology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-01 23:18:50,U202,nurse,P198,view,neurology,mobile,office,1,23,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 12:19:34,U201,nurse,P172,view,cardiology,desktop,ward,0,12,0,,Normal
+2026-02-02 11:57:49,U202,nurse,P041,view,orthopedics,desktop,ICU,0,11,0,,Normal
+2026-02-01 15:14:04,U201,nurse,P149,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-03 16:13:40,U201,nurse,P057,view,cardiology,desktop,ward,0,16,0,,Normal
+2026-02-04 11:19:51,U201,nurse,P165,view,cardiology,desktop,ICU,0,11,0,,Normal
+2026-02-05 11:24:24,U202,nurse,P108,view,orthopedics,desktop,ward,0,11,0,,Normal
+2026-02-04 08:23:35,U101,doctor,P020,update,cardiology,mobile,ward,0,8,1,Access from mobile device,Normal
+2026-02-01 17:28:43,U102,doctor,P125,view,neurology,mobile,ICU,0,17,1,Access from mobile device,Normal
+2026-02-01 14:16:12,U201,nurse,P154,view,cardiology,desktop,ward,0,14,0,,Normal
+2026-02-04 08:20:38,U201,nurse,P150,view,cardiology,desktop,ICU,0,8,0,,Normal
+2026-02-01 13:45:48,U301,admin,P194,view,admin,mobile,office,0,13,1,Access from mobile device,Normal
+2026-02-02 08:12:55,U201,nurse,P099,view,cardiology,desktop,ward,0,8,0,,Normal
+2026-02-02 10:20:09,U101,doctor,P106,update,cardiology,mobile,ICU,0,10,1,Access from mobile device,Normal
+2026-02-02 08:47:47,U102,doctor,P110,view,neurology,desktop,ward,0,8,0,,Normal
+2026-02-05 09:38:41,U202,nurse,P200,view,orthopedics,desktop,ICU,0,9,0,,Normal
+2026-02-05 09:14:07,U201,nurse,P084,view,cardiology,mobile,ICU,0,9,1,Access from mobile device,Normal
+2026-02-05 18:41:27,U301,admin,P151,export,admin,mobile,office,0,18,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-04 21:54:57,U102,doctor,P165,update,neurology,mobile,ICU,0,21,4,"Access outside working hours, Access from mobile device",Suspicious
+2026-02-01 12:16:58,U102,doctor,P077,update,neurology,mobile,ICU,0,12,1,Access from mobile device,Normal
+2026-02-02 15:29:26,U201,nurse,P056,view,cardiology,mobile,ward,0,15,1,Access from mobile device,Normal
+2026-02-02 15:46:37,U101,doctor,P072,update,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-02 15:10:00,U301,admin,P168,view,admin,desktop,office,0,15,0,,Normal
+2026-02-05 07:28:40,U102,doctor,P189,update,neurology,desktop,ICU,0,7,3,Access outside working hours,Normal
+2026-02-05 13:07:37,U101,doctor,P172,update,cardiology,desktop,ward,0,13,0,,Normal
+2026-02-02 12:46:37,U102,doctor,P071,update,neurology,desktop,ward,0,12,0,,Normal
+2026-02-05 13:50:56,U202,nurse,P047,view,orthopedics,desktop,ICU,0,13,0,,Normal
+2026-02-05 15:34:28,U301,admin,P183,export,admin,mobile,office,0,15,7,"Export action (data leakage risk), Access from mobile device",Suspicious
+2026-02-01 15:38:57,U201,nurse,P016,view,cardiology,desktop,ICU,0,15,0,,Normal
+2026-02-02 16:08:20,U202,nurse,P158,view,orthopedics,desktop,ICU,0,16,0,,Normal
+2026-02-05 10:43:53,U102,doctor,P030,update,neurology,desktop,ICU,0,10,0,,Normal
+2026-02-03 10:38:17,U102,doctor,P017,update,neurology,mobile,ward,0,10,1,Access from mobile device,Normal
+2026-02-04 15:28:20,U301,admin,P024,view,admin,mobile,office,0,15,1,Access from mobile device,Normal
+2026-02-02 11:48:02,U301,admin,P107,view,admin,mobile,office,0,11,1,Access from mobile device,Normal
+2026-02-02 09:23:02,U201,nurse,P181,view,cardiology,mobile,ward,0,9,1,Access from mobile device,Normal
+2026-02-05 05:02:01,U102,doctor,P174,view,neurology,desktop,ICU,0,5,3,Access outside working hours,Normal

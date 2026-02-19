@@ -1,0 +1,28 @@
+timestamp,user_id,role,patient_id,action,department,device,location,label,hour,risk_score,reasons,risk_level
+2026-02-04 01:50:26,U301,admin,P011,export,admin,desktop,office,0,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-01 00:05:42,U301,admin,P085,export,admin,mobile,office,1,0,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-04 01:26:44,U301,admin,P155,export,admin,desktop,office,1,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-01 22:51:42,U301,admin,P160,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-05 04:01:44,U301,admin,P126,export,admin,desktop,office,0,4,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-03 03:29:52,U301,admin,P003,export,admin,mobile,office,1,3,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-01 03:32:09,U301,admin,P132,export,admin,desktop,home,1,3,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-03 23:19:35,U301,admin,P001,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-04 22:52:15,U301,admin,P026,export,admin,mobile,home,1,22,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-05 21:35:46,U301,admin,P121,export,admin,desktop,office,0,21,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-01 02:00:00,U301,admin,P065,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-05 23:30:12,U301,admin,P084,export,admin,mobile,home,1,23,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-02 22:42:50,U301,admin,P055,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-03 21:51:19,U301,admin,P036,export,admin,mobile,office,0,21,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-01 02:09:29,U301,admin,P172,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-04 22:03:12,U301,admin,P179,export,admin,desktop,home,1,22,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-05 22:26:43,U301,admin,P177,export,admin,mobile,office,0,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-02 22:25:42,U301,admin,P165,export,admin,mobile,office,1,22,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-04 01:16:49,U301,admin,P050,export,admin,desktop,office,1,1,9,"Access outside working hours, Export action (data leakage risk)",High Risk
+2026-02-03 23:18:54,U301,admin,P159,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 02:53:27,U301,admin,P163,export,admin,mobile,office,0,2,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
+2026-02-02 23:20:48,U301,admin,P118,export,admin,desktop,home,1,23,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 02:51:19,U301,admin,P049,export,admin,desktop,home,1,2,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 02:08:18,U301,admin,P057,export,admin,mobile,home,1,2,13,"Access outside working hours, Export action (data leakage risk), Access from home location, Access from mobile device",High Risk
+2026-02-04 00:17:27,U301,admin,P183,export,admin,desktop,home,1,0,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 00:56:41,U301,admin,P181,export,admin,desktop,home,1,0,12,"Access outside working hours, Export action (data leakage risk), Access from home location",High Risk
+2026-02-02 19:26:34,U301,admin,P100,export,admin,mobile,office,0,19,10,"Access outside working hours, Export action (data leakage risk), Access from mobile device",High Risk
