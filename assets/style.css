@@ -1,47 +1,59 @@
+/* ===== GLOBAL ===== */
 .stApp {
     background: linear-gradient(135deg, #020617, #0f172a);
-    color: white;
-    font-family: 'Segoe UI', sans-serif;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
   }
   
-  .header {
+  /* ===== HERO ===== */
+  .hero {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
   }
   
-  .header h1 {
-    font-size: 40px;
-    color: #38bdf8;
+  .gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #38bdf8, #9333ea, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
-  .header p {
+  .subtitle {
     color: #94a3b8;
+    font-size: 16px;
   }
   
-  /* Glass cards */
+  /* ===== CARD ===== */
   .card {
     background: rgba(255,255,255,0.05);
-    padding: 20px;
-    border-radius: 15px;
+    padding: 25px;
+    border-radius: 18px;
     margin-top: 15px;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(14px);
     border: 1px solid rgba(255,255,255,0.08);
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    text-align: center;
   }
   
   .card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 25px rgba(56,189,248,0.4);
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 0 40px rgba(56,189,248,0.3);
   }
   
-  /* Metrics */
+  /* ===== METRICS ===== */
   div[data-testid="stMetric"] {
     background: rgba(255,255,255,0.05);
-    padding: 15px;
+    padding: 18px;
     border-radius: 12px;
   }
   
-  /* Sidebar */
+  /* ===== SIDEBAR ===== */
   section[data-testid="stSidebar"] {
     background: #020617;
+  }
+  
+  /* ===== SMOOTH SCROLL ===== */
+  html {
+    scroll-behavior: smooth;
   }
