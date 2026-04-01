@@ -2,6 +2,11 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 from datetime import datetime
+import streamlit as st
+
+def run():
+    st.title("🏠 Home")
+    st.write("Welcome to the SOC Dashboard")
 
 # ----------------------------
 # LOAD LOTTIE ANIMATION

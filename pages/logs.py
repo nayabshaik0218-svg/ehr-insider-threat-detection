@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
+import streamlit as st
 
+def run():
+    st.title("📜 Logs")
+    st.write("System logs and activity tracking")
 # ----------------------------
 # LOAD DATA
 # ----------------------------
