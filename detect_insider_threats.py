@@ -8,25 +8,22 @@ def run_detection(file="ehr_logs.csv"):
 
     df["timestamp"] = pd.to_datetime(df["timestamp"])
     df["hour"] = df["timestamp"].dt.hour
-    df["day_of_week"] = df["timestamp"].dt.dayofweek
+    df["day"] = df["timestamp"].dt.dayofweek
 
-    df["is_night_access"] = df["hour"].apply(
-        lambda x: 1 if (x < 8 or x > 18) else 0
-    )
+    df["is_night"] = df["hour"].apply(lambda x: 1 if (x < 8 or x > 18) else 0)
 
-    encoders = {}
+    # Encode categorical columns
     for col in ["user_id","role","patient_id","action","department","device","location"]:
-        le = LabelEncoder()
-        df[col] = le.fit_transform(df[col])
-        encoders[col] = le
+        df[col] = LabelEncoder().fit_transform(df[col])
 
     features = [
         "user_id","role","patient_id","action",
         "department","device","location",
-        "hour","day_of_week","is_night_access"
+        "hour","day","is_night"
     ]
 
-    X = df[features]
+    # 🔥 CRITICAL FIX (convert to NUMPY for BOTH fit & predict)
+    X = df[features].values
 
     model = IsolationForest(
         n_estimators=200,
@@ -34,10 +31,13 @@ def run_detection(file="ehr_logs.csv"):
         random_state=42
     )
 
+    # Train
     model.fit(X)
 
-    df["anomaly"] = model.predict(X)
-    df["ml_threat"] = df["anomaly"].apply(lambda x: 1 if x == -1 else 0)
+    # Predict (same format → no warning)
+    df["ml_threat"] = model.predict(X)
+    df["ml_threat"] = df["ml_threat"].apply(lambda x: 1 if x == -1 else 0)
+
     df["anomaly_score"] = model.decision_function(X)
 
     return df

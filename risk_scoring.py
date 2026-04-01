@@ -7,7 +7,7 @@ def process_data(file="ehr_logs.csv"):
     df["timestamp"] = pd.to_datetime(df["timestamp"])
     df["hour"] = df["timestamp"].dt.hour
 
-    # ---------------- Behavior Drift ----------------
+    # Behavior Drift
     user_activity = df.groupby("user_id").size()
     avg_activity = user_activity.mean()
     drift_users = user_activity[user_activity > avg_activity * 2]
@@ -16,18 +16,18 @@ def process_data(file="ehr_logs.csv"):
         lambda u: 1 if u in drift_users.index else 0
     )
 
-    # ---------------- Risk Scoring ----------------
+    # Risk scoring
     def calculate_risk(row):
         score = 0
         reasons = []
 
         if row["hour"] < 8 or row["hour"] > 18:
             score += 3
-            reasons.append("Off-hours access")
+            reasons.append("Access outside working hours")
 
         if row["action"] == "export":
             score += 6
-            reasons.append("Data export")
+            reasons.append("Sensitive data export")
 
         if row["location"] == "home":
             score += 3
@@ -39,7 +39,7 @@ def process_data(file="ehr_logs.csv"):
 
         if row["behavior_drift"] == 1:
             score += 4
-            reasons.append("Behavior drift")
+            reasons.append("Unusual activity spike")
 
         return score, ", ".join(reasons)
 
@@ -47,7 +47,6 @@ def process_data(file="ehr_logs.csv"):
         lambda r: pd.Series(calculate_risk(r)), axis=1
     )
 
-    # ---------------- Risk Level ----------------
     def risk_level(score):
         if score <= 3:
             return "Normal"
