@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import subprocess
 
 # ----------------------------
 # PAGE CONFIG
@@ -12,15 +11,15 @@ st.set_page_config(
 )
 
 # ----------------------------
-# AUTO DATA GENERATION (IMPORTANT)
+# AUTO DATA GENERATION (CLOUD SAFE)
 # ----------------------------
 if not os.path.exists("ehr_logs.csv"):
     st.warning("⚠ Generating dataset... Please wait")
 
     try:
-        subprocess.run(["python", "logs.py"], check=True)
-        subprocess.run(["python", "detect_insider_threats.py"], check=True)
-        subprocess.run(["python", "risk_scoring.py"], check=True)
+        import logs
+        import detect_insider_threats
+        import risk_scoring
 
         st.success("✅ Data generated successfully!")
 
@@ -37,7 +36,7 @@ except:
     st.warning("⚠ Style file not found")
 
 # ----------------------------
-# SIDEBAR NAVIGATION
+# SIDEBAR
 # ----------------------------
 st.sidebar.title("🛡 SOC Console")
 
@@ -53,7 +52,7 @@ page = st.sidebar.radio(
 )
 
 # ----------------------------
-# PAGE ROUTING
+# ROUTING
 # ----------------------------
 if page == "🏠 Home":
     import home
