@@ -1,179 +1,102 @@
 import streamlit as st
-import os
+import pandas as pd
 import time
-from datetime import datetime
 
-# ----------------------------
-# PAGE CONFIG
-# ----------------------------
-st.set_page_config(
-    page_title="🛡 EHR Cyber Threat Console",
-    page_icon="🛡",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+st.set_page_config(page_title="🚨 SOC Dashboard", layout="wide")
 
-# ----------------------------
-# CUSTOM CSS (INLINE - CRAZY UI)
-# ----------------------------
+# ------------------ CUSTOM CSS ------------------
 st.markdown("""
 <style>
-/* Background */
 body {
-    background: linear-gradient(135deg, #0f172a, #020617);
-    color: #e2e8f0;
-}
-
-/* Glass Card */
-.glass {
-    background: rgba(255,255,255,0.05);
-    border-radius: 15px;
-    padding: 20px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px rgba(0,255,255,0.2);
-}
-
-/* Neon Text */
-.neon {
-    color: #22d3ee;
-    text-shadow: 0 0 10px #22d3ee, 0 0 20px #0ea5e9;
-}
-
-/* Sidebar */
-section[data-testid="stSidebar"] {
-    background: #020617;
-}
-
-/* Buttons */
-.stButton>button {
-    background: linear-gradient(90deg, #06b6d4, #3b82f6);
-    border: none;
-    border-radius: 10px;
+    background-color: #0d1117;
     color: white;
-    font-weight: bold;
-    transition: 0.3s;
 }
-.stButton>button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #0ea5e9;
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    background: #161b22;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.nav-btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #58a6ff;
 }
 </style>
 """, unsafe_allow_html=True)
 
-# ----------------------------
-# HEADER
-# ----------------------------
+# ------------------ HEADER ------------------
 st.markdown("""
-<h1 class='neon'>🛡 EHR CYBER THREAT CONSOLE</h1>
-<p>Real-Time Threat Monitoring • AI Detection • Insider Risk Analysis</p>
+<h1 style='text-align:center;color:red;'>🚨 CYBER SECURITY SOC</h1>
 """, unsafe_allow_html=True)
 
-# ----------------------------
-# SYSTEM STATUS BAR
-# ----------------------------
-col1, col2, col3, col4 = st.columns(4)
+# ------------------ NAVIGATION ------------------
+menu = ["🏠 Home", "📊 Dashboard", "🚨 Alerts", "📈 Analytics", "📜 Logs"]
+choice = st.radio("", menu, horizontal=True)
 
-with col1:
-    st.success("🟢 System Active")
-
-with col2:
-    st.info(f"🕒 {datetime.now().strftime('%H:%M:%S')}")
-
-with col3:
-    st.warning("⚠ Threat Level: Medium")
-
-with col4:
-    st.metric("📡 Requests/sec", "128", "+12%")
-
-st.divider()
-
-# ----------------------------
-# AUTO DATA GENERATION
-# ----------------------------
-if not os.path.exists("ehr_logs.csv"):
-    with st.spinner("⚡ Generating synthetic EHR logs..."):
-        progress = st.progress(0)
-
-        for i in range(100):
-            time.sleep(0.01)
-            progress.progress(i + 1)
-
-        try:
-            import logs
-            import detect_insider_threats
-            import risk_scoring
-
-            st.success("✅ Dataset Ready!")
-
-        except Exception as e:
-            st.error(f"❌ Error: {e}")
-
-# ----------------------------
-# SIDEBAR
-# ----------------------------
-st.sidebar.markdown("## 🛡 SOC Navigation")
-
-page = st.sidebar.radio(
-    "Select Module",
-    [
-        "🏠 Home",
-        "📊 Security Dashboard",
-        "📈 Threat Analytics",
-        "🚨 Alerts Center",
-        "📜 System Logs"
-    ]
-)
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("### ⚙ Controls")
-
-if st.sidebar.button("🔄 Refresh System"):
-    st.rerun()
-
-if st.sidebar.button("🚨 Simulate Attack"):
-    st.sidebar.error("Simulated breach triggered!")
-
-st.sidebar.markdown("---")
-st.sidebar.caption("👨‍💻 Developed by Cyber AI System")
-
-# ----------------------------
-# ROUTING (SAFE IMPORT + RUN)
-# ----------------------------
-def load_module(module_name):
+# ------------------ LOAD DATA ------------------
+@st.cache_data
+def load_data():
     try:
-        module = __import__(module_name)
+        return pd.read_csv("high_risk_alerts.csv")
+    except:
+        return pd.DataFrame({
+            "user_id": ["U101", "U102", "U103"],
+            "action": ["Login Failure", "Data Download", "Privilege Escalation"],
+            "risk_score": [85, 92, 78]
+        })
 
-        if hasattr(module, "run"):
-            module.run()
+df = load_data()
+
+# ------------------ HOME ------------------
+if choice == "🏠 Home":
+    st.markdown("## 🏠 Welcome to SOC AI System")
+    st.write("Monitor threats, detect anomalies, and secure systems in real-time.")
+    st.image("https://images.unsplash.com/photo-1550751827-4bd374c3f58b", use_container_width=True)
+
+# ------------------ DASHBOARD ------------------
+elif choice == "📊 Dashboard":
+    st.markdown("## 📊 System Overview")
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("🚨 Total Alerts", len(df))
+    col2.metric("⚠️ High Risk", len(df[df["risk_score"] > 80]))
+    col3.metric("👥 Users", df["user_id"].nunique())
+
+    st.bar_chart(df["risk_score"])
+
+# ------------------ ALERTS ------------------
+elif choice == "🚨 Alerts":
+    st.markdown("## 🚨 High Risk Alerts")
+
+    for _, row in df.iterrows():
+        if row["risk_score"] > 80:
+            st.error(f"🔥 {row['user_id']} → {row['action']} (Risk {row['risk_score']})")
         else:
-            st.error(f"❌ `{module_name}.py` missing run() function")
+            st.warning(f"⚠️ {row['user_id']} → {row['action']}")
 
-    except Exception as e:
-        st.error(f"🔥 Error loading {module_name}: {e}")
+# ------------------ ANALYTICS ------------------
+elif choice == "📈 Analytics":
+    st.markdown("## 📈 Analytics Insights")
 
-# ----------------------------
-# PAGE LOAD
-# ----------------------------
-if page == "🏠 Home":
-    load_module("home")
+    st.line_chart(df["risk_score"])
+    st.area_chart(df["risk_score"])
 
-elif page == "📊 Security Dashboard":
-    load_module("dashboard")
+# ------------------ LOGS ------------------
+elif choice == "📜 Logs":
+    st.markdown("## 📜 Live Logs")
 
-elif page == "📈 Threat Analytics":
-    load_module("analytics")
+    log_box = st.empty()
+    logs = [
+        "User login success",
+        "Failed password attempt",
+        "Sensitive file accessed",
+        "Admin privilege escalation",
+    ]
 
-elif page == "🚨 Alerts Center":
-    load_module("alerts")
-
-elif page == "📜 System Logs":
-    load_module("logs")
-
-# ----------------------------
-# FOOTER (TERMINAL STYLE)
-# ----------------------------
-st.markdown("---")
-st.markdown(
-    f"<center style='color:#64748b'>SYSTEM STATUS: RUNNING | {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</center>",
-    unsafe_allow_html=True
-)
+    for log in logs:
+        log_box.text(log)
+        time.sleep(0.5)
