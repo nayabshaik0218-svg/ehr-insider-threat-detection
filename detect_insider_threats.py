@@ -2,7 +2,10 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import LabelEncoder
+import streamlit as st
 
+with open("assets/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 # ----------------------------
 # 1) Load Dataset
 # ----------------------------

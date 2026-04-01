@@ -1,7 +1,10 @@
 import random
 import pandas as pd
 from datetime import datetime, timedelta
+import streamlit as st
 
+with open("assets/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 # ----------------------------
 # CONFIG
 # ----------------------------
