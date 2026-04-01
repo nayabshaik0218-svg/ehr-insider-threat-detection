@@ -36,6 +36,18 @@ except:
     st.warning("⚠ Style file not found")
 
 # ----------------------------
+# HEADER
+# ----------------------------
+st.markdown("""
+<h1 style='text-align:center; color:#38bdf8;'>
+🛡 EHR Insider Threat Detection System
+</h1>
+<p style='text-align:center; color:gray;'>
+Real-time Security Monitoring Dashboard
+</p>
+""", unsafe_allow_html=True)
+
+# ----------------------------
 # SIDEBAR
 # ----------------------------
 st.sidebar.title("🛡 SOC Console")
@@ -52,7 +64,7 @@ page = st.sidebar.radio(
 )
 
 # ----------------------------
-# ROUTING
+# PAGE ROUTING
 # ----------------------------
 if page == "🏠 Home":
     import home
@@ -68,3 +80,13 @@ elif page == "🚨 Alerts Center":
 
 elif page == "📜 System Logs":
     import logs
+
+# ----------------------------
+# FOOTER
+# ----------------------------
+st.markdown("""
+<hr>
+<p style='text-align:center; color:gray;'>
+Developed by Nayab | Cyber Security Project
+</p>
+""", unsafe_allow_html=True)
