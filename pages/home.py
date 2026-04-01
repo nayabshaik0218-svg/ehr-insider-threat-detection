@@ -1,21 +1,8 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
-import requests
-
-def load(url):
-    return requests.get(url).json()
-
-anim = load("https://assets9.lottiefiles.com/packages/lf20_jcikwtux.json")
-
-st_lottie(anim,height=250)
 
 st.markdown("""
-### Cyber Threat Monitoring System
-
-This platform monitors **Electronic Health Record (EHR)** systems to detect:
-
-- Insider threats
-- Suspicious access
-- Data exfiltration
-- Abnormal user behaviour
-""")
+<div class="card">
+<h2>Welcome to EHR Monitoring System</h2>
+<p>This system analyzes user behavior and detects unusual activities using machine learning.</p>
+</div>
+""", unsafe_allow_html=True)

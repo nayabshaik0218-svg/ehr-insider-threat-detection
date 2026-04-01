@@ -1,100 +1,39 @@
 import streamlit as st
-import os
 
-st.markdown("""
-<div class="app-title">📊 EHR Activity Monitoring System</div>
-<div class="app-sub">User Behavior Analysis & Risk Insights</div>
-""", unsafe_allow_html=True)
-# ----------------------------
-# PAGE CONFIG
-# ----------------------------
 st.set_page_config(
-    page_title="EHR Cyber Threat Console",
-    page_icon="🛡",
+    page_title="EHR Monitoring",
+    page_icon="📊",
     layout="wide"
 )
 
-# ----------------------------
-# RUN ONLY ONCE (FIX FREEZE)
-# ----------------------------
-if "data_loaded" not in st.session_state:
+# Load CSS
+with open("assets/style.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-    if not os.path.exists("ehr_logs_with_risk.csv"):
-        st.warning("⚠ Generating dataset... Please wait")
-
-        try:
-            import logs
-            import detect_insider_threats
-            import risk_scoring
-
-            st.success("✅ Data generated successfully!")
-
-        except Exception as e:
-            st.error(f"❌ Error: {e}")
-
-    st.session_state["data_loaded"] = True
-
-# ----------------------------
-# LOAD STYLES
-# ----------------------------
-try:
-    with open("assets/style.css") as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-except:
-    pass
-
-# ----------------------------
 # HEADER
-# ----------------------------
 st.markdown("""
-<h1 style='text-align:center; color:#38bdf8;'>
-🛡 EHR Insider Threat Detection System
-</h1>
-<p style='text-align:center; color:gray;'>
-Real-time Security Monitoring Dashboard
-</p>
+<div class="header">
+<h1>📊 EHR Activity Monitoring System</h1>
+<p>Real-time User Behavior & Risk Insights</p>
+</div>
 """, unsafe_allow_html=True)
 
-# ----------------------------
 # SIDEBAR
-# ----------------------------
-st.sidebar.title("🛡 SOC Console")
+st.sidebar.title("Navigation")
 
 page = st.sidebar.radio(
-    "Navigation",
-    [
-        "🏠 Home",
-        "📊 Security Dashboard",
-        "📈 Threat Analytics",
-        "🚨 Alerts Center",
-        "📜 System Logs"
-    ]
+    "Select Page",
+    ["🏠 Home", "📊 Dashboard", "📈 Analytics", "🚨 Alerts", "📜 Logs"]
 )
 
-# ----------------------------
-# PAGE ROUTING
-# ----------------------------
+# ROUTING
 if page == "🏠 Home":
     import home
-
-elif page == "📊 Security Dashboard":
+elif page == "📊 Dashboard":
     import dashboard
-
-elif page == "📈 Threat Analytics":
+elif page == "📈 Analytics":
     import analytics
-
-elif page == "🚨 Alerts Center":
+elif page == "🚨 Alerts":
     import alerts
-
-elif page == "📜 System Logs":
+elif page == "📜 Logs":
     import logs
-
-# ----------------------------
-# FOOTER
-# ----------------------------
-st.markdown("""
-<hr>
-<p style='text-align:center; color:gray;'>
-Developed by Nayab | Cyber Security Project
-</p>
-""", unsafe_allow_html=True)

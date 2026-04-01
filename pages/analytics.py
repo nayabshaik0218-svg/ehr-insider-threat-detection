@@ -1,19 +1,17 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
-
-st.header("📈 Threat Analytics")
 
 df = pd.read_csv("ehr_logs_with_risk.csv")
 
-risk_counts = df["risk_level"].value_counts().reset_index()
-risk_counts.columns = ["risk_level", "count"]
+st.title("📈 Analytics")
 
-fig = px.pie(
-risk_counts,
-values="count",
-names="risk_level",
-hole=0.5
-)
+# Risk Distribution
+st.subheader("Risk Distribution")
+st.bar_chart(df["risk_level"].value_counts())
 
-st.plotly_chart(fig, width="stretch")
+# Activity by Hour
+df["timestamp"] = pd.to_datetime(df["timestamp"])
+hour_data = df.groupby(df["timestamp"].dt.hour).size()
+
+st.subheader("Activity by Hour")
+st.line_chart(hour_data)

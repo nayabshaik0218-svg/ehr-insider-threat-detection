@@ -1,13 +1,17 @@
 import streamlit as st
 import pandas as pd
 
-st.header("🚨 Threat Alerts")
+st.title("🚨 Alerts Center")
 
 alerts = pd.read_csv("high_risk_alerts.csv")
 
-for _,row in alerts.head(10).iterrows():
-    st.error(
-        f"User {row['user_id']} performed {row['action']} | Risk Score {row['risk_score']}"
-    )
+st.error(f"{len(alerts)} High Risk Alerts Detected")
 
-st.dataframe(alerts)
+for _, row in alerts.head(10).iterrows():
+    st.markdown(f"""
+    <div class="card">
+    🔴 <b>User:</b> {row['user_id']} <br>
+    ⚡ <b>Action:</b> {row['action']} <br>
+    🔥 <b>Risk Score:</b> {row['risk_score']}
+    </div>
+    """, unsafe_allow_html=True)
