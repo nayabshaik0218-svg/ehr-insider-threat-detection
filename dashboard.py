@@ -80,10 +80,15 @@ st.error(f"⚠ {len(alerts)} High Risk Alerts Detected")
 
 for _, row in alerts.head(5).iterrows():
     st.markdown(f"""
-    <div style="padding:10px; border-radius:10px; margin-bottom:10px;
-                background-color:rgba(255,0,0,0.1);">
-    🚨 <b>User:</b> {row['user_id']} <br>
-    ⚡ <b>Action:</b> {row['action']} <br>
-    🔥 <b>Risk Score:</b> {row['risk_score']}
+    <div class="alert">
+    <b>User:</b> {row['user_id']}<br>
+    <b>Action:</b> {row['action']}<br>
+    <b>Risk Score:</b> {row['risk_score']}
     </div>
     """, unsafe_allow_html=True)
+st.markdown('<div class="card">📊 Key Metrics</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="card">
+System Status: Active | Monitoring Enabled | Data Processing Running
+</div>
+""", unsafe_allow_html=True)

@@ -1,6 +1,10 @@
 import streamlit as st
 import os
 
+st.markdown("""
+<div class="app-title">📊 EHR Activity Monitoring System</div>
+<div class="app-sub">User Behavior Analysis & Risk Insights</div>
+""", unsafe_allow_html=True)
 # ----------------------------
 # PAGE CONFIG
 # ----------------------------
