@@ -11,20 +11,24 @@ st.set_page_config(
 )
 
 # ----------------------------
-# AUTO DATA GENERATION (CLOUD SAFE)
+# RUN ONLY ONCE (FIX FREEZE)
 # ----------------------------
-if not os.path.exists("ehr_logs.csv"):
-    st.warning("⚠ Generating dataset... Please wait")
+if "data_loaded" not in st.session_state:
 
-    try:
-        import logs
-        import detect_insider_threats
-        import risk_scoring
+    if not os.path.exists("ehr_logs_with_risk.csv"):
+        st.warning("⚠ Generating dataset... Please wait")
 
-        st.success("✅ Data generated successfully!")
+        try:
+            import logs
+            import detect_insider_threats
+            import risk_scoring
 
-    except Exception as e:
-        st.error(f"❌ Error generating data: {e}")
+            st.success("✅ Data generated successfully!")
+
+        except Exception as e:
+            st.error(f"❌ Error: {e}")
+
+    st.session_state["data_loaded"] = True
 
 # ----------------------------
 # LOAD STYLES
@@ -33,7 +37,7 @@ try:
     with open("assets/style.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 except:
-    st.warning("⚠ Style file not found")
+    pass
 
 # ----------------------------
 # HEADER
